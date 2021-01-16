@@ -10,7 +10,7 @@ import Ui from '../pages/Ui';
 
 export default function AppRouter(): JSX.Element {
   return (
-    <BrowserRouter basename="/sergyus">
+    <BrowserRouter basename="/pwa">
       <Layout>
         <div className="page">
           <Switch>
