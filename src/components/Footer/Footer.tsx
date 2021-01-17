@@ -4,6 +4,7 @@ const useStyles = makeStyles((theme) => ({
   footer: {
     backgroundColor: '#e6e6e6',
     padding: theme.spacing(4),
+    marginTop: '30px',
   },
 }));
 

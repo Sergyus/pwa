@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { theme } from './theme/theme';
 import AppRouter from './router/AppRouter';
-import ServiceWorker from './modules/ServiceWorker';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { MuiThemeProvider } from '@material-ui/core/styles';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import './assets/styles/index.scss';
 
 ReactDOM.render(
@@ -15,4 +15,4 @@ ReactDOM.render(
   document.getElementById('root'),
 );
 
-ServiceWorker.register();
+serviceWorkerRegistration.register();
