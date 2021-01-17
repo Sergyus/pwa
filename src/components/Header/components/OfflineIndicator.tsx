@@ -10,21 +10,15 @@ export default function OfflineIndicator(): JSX.Element {
   React.useEffect(() => {
     window.addEventListener('online', onlineListener);
     window.addEventListener('offline', offlineListener);
+    setOffline(!window.navigator.onLine);
     return () => {
       window.removeEventListener('offline', onlineListener);
       window.removeEventListener('offline', offlineListener);
     };
   }, []);
 
-  const onlineListener = (event: Event) => {
-    console.log('online', event);
-    setOffline(false);
-  };
-
-  const offlineListener = (event: Event) => {
-    console.log('offline', event);
-    setOffline(true);
-  };
+  const onlineListener = () => setOffline(false);
+  const offlineListener = () => setOffline(true);
 
   return (
     <div className="indicator">
