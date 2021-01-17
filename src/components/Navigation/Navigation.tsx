@@ -21,6 +21,10 @@ export default function Navigation(): JSX.Element {
       name: 'Ui',
       link: '/ui',
     },
+    {
+      name: 'Pwa',
+      link: '/pwa',
+    },
   ];
   return (
     <div className="nav-header">

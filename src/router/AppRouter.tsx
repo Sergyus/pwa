@@ -7,6 +7,7 @@ import Layout from '../components/Layout';
 import Account from '../pages/Account';
 import Blog from '../pages/Blog';
 import Ui from '../pages/Ui';
+import Pwa from '../pages/Pwa';
 
 export default function AppRouter(): JSX.Element {
   return (
@@ -18,6 +19,7 @@ export default function AppRouter(): JSX.Element {
             <Route path="/about" component={About} />
             <Route path="/blog" component={Blog} />
             <Route path="/ui" component={Ui} />
+            <Route path="/pwa" component={Pwa} />
             <Route path="/account" component={Account} />
           </Switch>
         </div>
