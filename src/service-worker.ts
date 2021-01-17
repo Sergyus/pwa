@@ -47,9 +47,8 @@ self.addEventListener('message', (event) => {
 registerRoute(
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
-  ({ url }) =>
-    url.origin === 'https://jsonplaceholder.typicode.com' &&
-    url.pathname.startsWith('/posts/'),
+  ({ url }) => url.origin === 'https://jsonplaceholder.typicode.com',
+  // && url.pathname.startsWith('/posts/')
   new CacheFirst({
     cacheName: 'posts-cache',
     plugins: [
