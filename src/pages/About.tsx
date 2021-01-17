@@ -47,8 +47,13 @@ export default function About(): JSX.Element {
           </div>
           <br />
           <div>
+            <Chip
+              label="REST API"
+              color="primary"
+              avatar={<Avatar>R</Avatar>}
+            />
             <Chip label="GRAPHQL" color="primary" avatar={<Avatar>G</Avatar>} />
-            <Chip label="WS" color="primary" />
+            <Chip label="WS" color="primary" avatar={<Avatar>W</Avatar>} />
           </div>
         </CardContent>
       </Card>
