@@ -31,6 +31,7 @@ import {
 import clsx from 'clsx';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import OfflineIndicator from './components/OfflineIndicator';
+import LangSwitcher from './components/LangSwitcher';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -242,7 +243,6 @@ export default function Header(): JSX.Element {
           </List>
         </div>
       </Drawer>
-
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -265,7 +265,10 @@ export default function Header(): JSX.Element {
           </div>
 
           <div className={classes.grow} />
+
           <OfflineIndicator />
+          <LangSwitcher />
+
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">
               <Badge badgeContent={4} color="secondary">

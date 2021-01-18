@@ -5,6 +5,7 @@ import AppRouter from './router/AppRouter';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import './libs/i18n';
 import './assets/styles/index.scss';
 
 ReactDOM.render(

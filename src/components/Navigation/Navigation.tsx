@@ -2,19 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 import './navigation.scss';
+import { useTranslation } from 'react-i18next';
 
 export default function Navigation(): JSX.Element {
+  const { t } = useTranslation('menu');
   const menu: { name: string; link: string }[] = [
     {
-      name: 'Home',
+      name: t('home'),
       link: '/',
     },
     {
-      name: 'Blog',
+      name: t('blog'),
       link: '/blog',
     },
     {
-      name: 'About',
+      name: t('about'),
       link: '/about',
     },
     {

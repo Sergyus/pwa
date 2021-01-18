@@ -4,11 +4,14 @@ import React from 'react';
 import CardContent from '@material-ui/core/CardContent';
 import Card from '@material-ui/core/Card';
 import { Avatar, Chip } from '@material-ui/core';
+import { useTranslation } from 'react-i18next';
 
 export default function About(): JSX.Element {
+  const { t } = useTranslation(['menu']);
+
   return (
     <>
-      <Title title="About" />
+      <Title title={t('about')} />
 
       <Card>
         <CardContent>

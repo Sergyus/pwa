@@ -4,11 +4,15 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function Home(): JSX.Element {
+  const { t } = useTranslation(['menu']);
+
   return (
     <>
-      <Title title="Home" />
+      <Title title={t('home')} />
+      <h1>{t('translation:React')}</h1>
       <img src={pic} alt="pic" />
 
       <br />
