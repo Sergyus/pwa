@@ -1,0 +1,1133 @@
+{
+  "hash": "e146f190bf1524991dca",
+  "version": "5.17.0",
+  "publicPath": "./",
+  "outputPath": "C:\\web\\sergyus\\build\\client",
+  "assetsByChunkName": {
+    "main": [
+      "main.3a4eaf54fb9425a66bf2.css",
+      "main.2f148fe2d838c4b17f98.js"
+    ],
+    "runtime~main": [
+      "runtime~main.22f99f517318e6ff01e8.js"
+    ],
+    "pages-Home": [
+      "354.88051ae48bb73d4c71c3.css",
+      "pages-Home.cb1f0c837786f3256f20.js"
+    ],
+    "pages-About": [
+      "89.88051ae48bb73d4c71c3.css",
+      "pages-About.a65e56d3361549fa8bc2.js"
+    ],
+    "pages-Account": [
+      "21.88051ae48bb73d4c71c3.css",
+      "pages-Account.980c5e29a0927ae04330.js"
+    ],
+    "pages-Blog": [
+      "587.88051ae48bb73d4c71c3.css",
+      "pages-Blog.5458336765f620368b91.js"
+    ],
+    "pages-Ui": [
+      "6.88051ae48bb73d4c71c3.css",
+      "pages-Ui.b9028fc4f0d50aea24bd.js"
+    ],
+    "pages-Pwa": [
+      "190.88051ae48bb73d4c71c3.css",
+      "pages-Pwa.d57b019531a6fae259e6.js"
+    ],
+    "pages-Article": [
+      "951.88051ae48bb73d4c71c3.css",
+      "pages-Article.56457cb7e90a463bc892.js"
+    ],
+    "pages-NotFound": [
+      "pages-NotFound.5bff491dd1fa5d9a1c17.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "main.2f148fe2d838c4b17f98.js",
+      "size": 543666,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "2f148fe2d838c4b17f98",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "main.2f148fe2d838c4b17f98.js.LICENSE.txt"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "main.2f148fe2d838c4b17f98.js.LICENSE.txt",
+          "size": 2256,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "extractedComments": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "3472ae1804dcda436663.jpg",
+      "size": 266395,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "../src/assets/img/pwa3.jpg",
+        "immutable": true,
+        "contenthash": "3472ae1804dcda436663"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "pages-Pwa"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        190
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "31ac244390662e895509.jpg",
+      "size": 260062,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "../src/assets/img/pwa2.jpg",
+        "immutable": true,
+        "contenthash": "31ac244390662e895509"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "pages-Pwa"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        190
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "c177e7cfb1afb80c4d3b.jpg",
+      "size": 152198,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "../src/assets/img/qwe.jpg",
+        "immutable": true,
+        "contenthash": "c177e7cfb1afb80c4d3b"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "pages-Home"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        354
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "d3c0a6d4fd6b87e7f7cd.jpg",
+      "size": 99384,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "sourceFilename": "../src/assets/img/pwa.jpg",
+        "immutable": true,
+        "contenthash": "d3c0a6d4fd6b87e7f7cd"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "pages-Pwa"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [
+        190
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "700.bdfffd70832737185148.js",
+      "size": 78080,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "bdfffd70832737185148",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        700
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "main.3a4eaf54fb9425a66bf2.css",
+      "size": 54673,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "3a4eaf54fb9425a66bf2"
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "389.297500e687f774fa3009.js",
+      "size": 16478,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "297500e687f774fa3009",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        389
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "pages-About.a65e56d3361549fa8bc2.js",
+      "size": 11035,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "a65e56d3361549fa8bc2",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-About"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        89
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "pages-Article.56457cb7e90a463bc892.js",
+      "size": 6739,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "56457cb7e90a463bc892",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-Article"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        951
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "pages-Ui.b9028fc4f0d50aea24bd.js",
+      "size": 5804,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "b9028fc4f0d50aea24bd",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-Ui"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        6
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "pages-Blog.5458336765f620368b91.js",
+      "size": 5028,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "5458336765f620368b91",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-Blog"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        587
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime~main.22f99f517318e6ff01e8.js",
+      "size": 4588,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "22f99f517318e6ff01e8",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "runtime~main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        303
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "pages-Home.cb1f0c837786f3256f20.js",
+      "size": 4109,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "cb1f0c837786f3256f20",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-Home"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        354
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "pages-Pwa.d57b019531a6fae259e6.js",
+      "size": 923,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "d57b019531a6fae259e6",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-Pwa"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        190
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "pages-NotFound.5bff491dd1fa5d9a1c17.js",
+      "size": 468,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "5bff491dd1fa5d9a1c17",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-NotFound"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        329
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "pages-Account.980c5e29a0927ae04330.js",
+      "size": 397,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "980c5e29a0927ae04330",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "pages-Account"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        21
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "190.88051ae48bb73d4c71c3.css",
+      "size": 47,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "88051ae48bb73d4c71c3"
+      },
+      "chunkNames": [
+        "pages-Pwa"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        190
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "21.88051ae48bb73d4c71c3.css",
+      "size": 47,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "88051ae48bb73d4c71c3"
+      },
+      "chunkNames": [
+        "pages-Account"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        21
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "354.88051ae48bb73d4c71c3.css",
+      "size": 47,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "88051ae48bb73d4c71c3"
+      },
+      "chunkNames": [
+        "pages-Home"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        354
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "587.88051ae48bb73d4c71c3.css",
+      "size": 47,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "88051ae48bb73d4c71c3"
+      },
+      "chunkNames": [
+        "pages-Blog"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        587
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "6.88051ae48bb73d4c71c3.css",
+      "size": 47,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "88051ae48bb73d4c71c3"
+      },
+      "chunkNames": [
+        "pages-Ui"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        6
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "89.88051ae48bb73d4c71c3.css",
+      "size": 47,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "88051ae48bb73d4c71c3"
+      },
+      "chunkNames": [
+        "pages-About"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        89
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "951.88051ae48bb73d4c71c3.css",
+      "size": 47,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "88051ae48bb73d4c71c3"
+      },
+      "chunkNames": [
+        "pages-Article"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        951
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        303,
+        179
+      ],
+      "assets": [
+        {
+          "name": "runtime~main.22f99f517318e6ff01e8.js"
+        },
+        {
+          "name": "main.3a4eaf54fb9425a66bf2.css"
+        },
+        {
+          "name": "main.2f148fe2d838c4b17f98.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        303,
+        179
+      ],
+      "assets": [
+        {
+          "name": "runtime~main.22f99f517318e6ff01e8.js"
+        },
+        {
+          "name": "main.3a4eaf54fb9425a66bf2.css"
+        },
+        {
+          "name": "main.2f148fe2d838c4b17f98.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-Home": {
+      "name": "pages-Home",
+      "chunks": [
+        354
+      ],
+      "assets": [
+        {
+          "name": "354.88051ae48bb73d4c71c3.css"
+        },
+        {
+          "name": "pages-Home.cb1f0c837786f3256f20.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "c177e7cfb1afb80c4d3b.jpg"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-About": {
+      "name": "pages-About",
+      "chunks": [
+        89
+      ],
+      "assets": [
+        {
+          "name": "89.88051ae48bb73d4c71c3.css"
+        },
+        {
+          "name": "pages-About.a65e56d3361549fa8bc2.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-Account": {
+      "name": "pages-Account",
+      "chunks": [
+        21
+      ],
+      "assets": [
+        {
+          "name": "21.88051ae48bb73d4c71c3.css"
+        },
+        {
+          "name": "pages-Account.980c5e29a0927ae04330.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-Blog": {
+      "name": "pages-Blog",
+      "chunks": [
+        700,
+        587
+      ],
+      "assets": [
+        {
+          "name": "700.bdfffd70832737185148.js"
+        },
+        {
+          "name": "587.88051ae48bb73d4c71c3.css"
+        },
+        {
+          "name": "pages-Blog.5458336765f620368b91.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-Ui": {
+      "name": "pages-Ui",
+      "chunks": [
+        389,
+        6
+      ],
+      "assets": [
+        {
+          "name": "389.297500e687f774fa3009.js"
+        },
+        {
+          "name": "6.88051ae48bb73d4c71c3.css"
+        },
+        {
+          "name": "pages-Ui.b9028fc4f0d50aea24bd.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-Pwa": {
+      "name": "pages-Pwa",
+      "chunks": [
+        190
+      ],
+      "assets": [
+        {
+          "name": "190.88051ae48bb73d4c71c3.css"
+        },
+        {
+          "name": "pages-Pwa.d57b019531a6fae259e6.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "31ac244390662e895509.jpg"
+        },
+        {
+          "name": "3472ae1804dcda436663.jpg"
+        },
+        {
+          "name": "d3c0a6d4fd6b87e7f7cd.jpg"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-Article": {
+      "name": "pages-Article",
+      "chunks": [
+        700,
+        951
+      ],
+      "assets": [
+        {
+          "name": "700.bdfffd70832737185148.js"
+        },
+        {
+          "name": "951.88051ae48bb73d4c71c3.css"
+        },
+        {
+          "name": "pages-Article.56457cb7e90a463bc892.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-NotFound": {
+      "name": "pages-NotFound",
+      "chunks": [
+        329
+      ],
+      "assets": [
+        {
+          "name": "pages-NotFound.5bff491dd1fa5d9a1c17.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+      "hash": "40aa9e968168f9581bfe",
+      "version": "5.17.0",
+      "builtAt": 1611622931943,
+      "publicPath": "./",
+      "outputPath": "C:\\web\\sergyus\\build\\client",
+      "assetsByChunkName": {},
+      "assets": [],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+      "hash": "0a201b05f24a09f9eeb6",
+      "version": "5.17.0",
+      "builtAt": 1611622932696,
+      "publicPath": "./",
+      "outputPath": "C:\\web\\sergyus\\build\\client",
+      "assetsByChunkName": {},
+      "assets": [],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+      "hash": "49c1652086afc99f341e",
+      "version": "5.17.0",
+      "builtAt": 1611622932885,
+      "publicPath": "./",
+      "outputPath": "C:\\web\\sergyus\\build\\client",
+      "assetsByChunkName": {},
+      "assets": [],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js!C:\\web\\sergyus\\src\\components\\Title\\title.scss",
+      "hash": "acd188d6b4afd61f47ee",
+      "version": "5.17.0",
+      "builtAt": 1611622930885,
+      "publicPath": "./",
+      "outputPath": "C:\\web\\sergyus\\build\\client",
+      "assetsByChunkName": {},
+      "assets": [],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
