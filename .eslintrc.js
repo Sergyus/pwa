@@ -1,6 +1,12 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: ['react', '@typescript-eslint', 'eslint-plugin-import', 'prettier'],
+  plugins: [
+    '@typescript-eslint',
+    'react',
+    'react-hooks',
+    'eslint-plugin-import',
+    'prettier',
+  ],
   env: {
     browser: true,
   },
@@ -39,6 +45,8 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-unused-vars': ['warn', { ignoreRestSiblings: true }],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-props-no-spreading': 'off',
     'import/prefer-default-export': 'off',
     'react/jsx-boolean-value': 'off',
@@ -51,6 +59,12 @@ module.exports = {
       'warn',
       {
         extensions: ['.jsx', '.tsx'],
+      },
+    ],
+    'no-console': [
+      'error',
+      {
+        allow: ['debug', 'time', 'timeEnd', 'trace', 'info', 'warn', 'error'],
       },
     ],
   },

@@ -1,3 +1,4 @@
+import React from 'react';
 import Title from '../components/Title';
 import pic from './../assets/img/pwa.jpg';
 import pic2 from './../assets/img/pwa2.jpg';

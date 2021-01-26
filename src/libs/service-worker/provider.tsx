@@ -89,7 +89,7 @@ export const ServiceWorkerProvider: React.FC = (props) => {
         installingWorker.onstatechange = () => {
           if (installingWorker.state === 'installed') {
             if (navigator.serviceWorker.controller) {
-              console.log(
+              console.info(
                 'New content is available and will be used when all tabs for this page are closed.',
               );
               Object.keys(eventRegistryRef.current.onUpdate).forEach(
@@ -98,7 +98,7 @@ export const ServiceWorkerProvider: React.FC = (props) => {
                 },
               );
             } else {
-              console.log('Content is cached for offline use.');
+              console.info('Content is cached for offline use.');
               Object.keys(eventRegistryRef.current.onSuccess).forEach(
                 (key: string) => {
                   eventRegistryRef.current.onSuccess[parseInt(key)]();
@@ -143,7 +143,7 @@ export const ServiceWorkerProvider: React.FC = (props) => {
           registerValidSW(swUrl);
         }
       } catch (e) {
-        console.log(
+        console.info(
           'No internet connection found. App is running in offline mode.',
         );
       }
@@ -156,7 +156,7 @@ export const ServiceWorkerProvider: React.FC = (props) => {
       if (isLocalhost) {
         checkValidServiceWorker(swUrl);
         navigator.serviceWorker.ready.then(() => {
-          console.log(
+          console.info(
             'This web app is being served cache-first by a service worker.',
           );
         });

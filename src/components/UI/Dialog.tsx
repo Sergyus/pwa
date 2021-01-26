@@ -7,17 +7,8 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import React, { useState } from 'react';
 
-type Props = {
-  open: () => void;
-  close: () => void;
-};
-
-export default function FormDialog(props: Props): JSX.Element {
+export default function FormDialog(): JSX.Element {
   const [open, setOpen] = useState(false);
-
-  function handleClickOpen(): void {
-    setOpen(true);
-  }
 
   function handleClose(): void {
     setOpen(false);

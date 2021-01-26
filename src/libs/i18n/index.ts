@@ -62,7 +62,7 @@ export default i18n
         wait: true,
       },
     },
-    (err, t) => {
+    (_err, t) => {
       t('myKey');
       t('common:myKey');
     },

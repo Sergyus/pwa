@@ -28,8 +28,12 @@
 - https://github.com/hiroppy/ssr-sample/tree/master/src/server
 - https://github.com/on3dd/mern-ssr-blog/blob/master/src/client/index.tsx
 - https://github.com/alexnm/react-ssr/blob/master/src/server.js
+- https://github.com/AlexSergey/issr/tree/master/examples/16-mobx/src
 
 ### EXPRESS
 
 - https://github.com/hagopj13/node-express-boilerplate
 - https://github.com/mxjoly/react-ssr-setup/blob/master/config/webpack/plugins.ts
+- https://github.com/ScorpionH/react-ssr-blog/blob/master/src/server/middlewares/react-ssr.tsx
+- https://github.com/on3dd/mern-ssr-blog
+- https://github.com/lauterry/perfect-react-app/tree/master/src/server
