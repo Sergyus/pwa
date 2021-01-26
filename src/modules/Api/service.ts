@@ -1,4 +1,5 @@
 import { CONFIG } from './consts';
+import fetch from 'isomorphic-fetch';
 
 /**
  * Api Service

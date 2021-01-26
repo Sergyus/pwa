@@ -61,11 +61,11 @@ module.exports = {
         extensions: ['.jsx', '.tsx'],
       },
     ],
-    'no-console': [
-      'error',
-      {
-        allow: ['debug', 'time', 'timeEnd', 'trace', 'info', 'warn', 'error'],
-      },
-    ],
+    // 'no-console': [
+    //   'error',
+    //   {
+    //     allow: ['debug', 'time', 'timeEnd', 'trace', 'info', 'warn', 'error'],
+    //   },
+    // ],
   },
 };

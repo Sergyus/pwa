@@ -1,16 +1,27 @@
-### React SSR App
+### React SSR _App
 
 ![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/113px-React-icon.svg.png)
 
 - https://stackblitz.com/edit/react-ts-1ptyhb?file=router%2FRouteWithSubRoutes.tsx
-- https://github.com/rokoroku/react-mobx-typescript-boilerplate/blob/master/src/app/containers/TodoContainer/server.ts
-- https://github.com/mikechabot/react-boilerplate
 - https://github.com/ant-design/ant-design-pro/tree/master/src
 - https://github.com/wellyshen/react-cool-starter/blob/master/src/routes/typengs.d.ts
 - https://medium.com/javascript-in-plain-english/simple-guide-for-layouts-in-react-router-e32b26c12cee
 - https://stackoverflow.com/questions/42862028/react-router-v4-with-multiple-layouts
 - https://github.com/shtanko-michael/react-multiple-layouts-example/blob/master/src/components/PrivateRoute/PrivateRoute.tsx
 - https://itnext.io/react-router-transitions-with-lazy-loading-2faa7a1d24a
+
+### ROUTER
+
+- https://medium.com/@michael.kutateladze/react-router-with-a-single-config-file-61777f306b4f
+- https://www.codota.com/code/javascript/functions/react-router-config/renderRoutes
+
+### WEBPACK
+
+- https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js
+
+### MOBX
+
+- https://dev.to/ivandotv/mobx-server-side-rendering-with-next-js-4m18
 
 ### SSR
 

@@ -16,10 +16,7 @@ module.exports = (env, { mode }) => {
     mode,
     context: __dirname,
     target: 'node',
-    stats: { modules: false },
-    watchOptions: {
-      ignored: /node_modules/,
-    },
+    stats: 'minimal',
     entry: {
       main: path.join(__dirname, '../src/server/', 'server.ts'),
     },

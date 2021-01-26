@@ -2,7 +2,7 @@ import Title from '../components/Title';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import { useParams } from 'react-router';
+import { useParams } from 'react-router-dom';
 import PostService from './../modules/Post';
 import React, { useEffect, useState } from 'react';
 import { CircularProgress, createStyles, Grid } from '@material-ui/core';

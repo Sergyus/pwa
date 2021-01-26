@@ -2,34 +2,16 @@ import path from 'path';
 import express from 'express';
 import createError from 'http-errors';
 import cookieParser from 'cookie-parser';
-import { ssrMiddleware } from './middlewares';
-import indexRouters from './routes';
 import compression from 'compression';
 import favicon from 'serve-favicon';
+import { ssr } from './middlewares';
+import indexRouters from './routes';
 
 const app = express();
 
+// import { devServer } from './utils';
 // if (__DEV__) {
-//   // eslint-disable-next-line @typescript-eslint/no-var-requires
-//   const webpack = require('webpack');
-//   // eslint-disable-next-line @typescript-eslint/no-var-requires
-//   const webpackConfig = require('../../webpack/webpack.client');
-//   const compiler = webpack(webpackConfig({}, { mode: 'development' }));
-//
-//   app.use(
-//     // eslint-disable-next-line @typescript-eslint/no-var-requires
-//     require('webpack-dev-middleware')(compiler, {
-//       serverSideRender: true,
-//       index: false,
-//     }),
-//   );
-//   app.use(
-//     // eslint-disable-next-line @typescript-eslint/no-var-requires
-//     require('webpack-hot-middleware')(compiler, {
-//       path: '/__webpack_hmr',
-//       heartbeat: 10 * 1000,
-//     }),
-//   );
+//   devServer(app);
 // }
 
 // view engine setup
@@ -46,7 +28,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(compression({ level: 5 }));
 app.use(favicon(path.join(__dirname, '../../public', 'favicon.ico')));
 app.use('/', indexRouters);
-app.use(ssrMiddleware);
+app.use(ssr);
 
 // catch 404 and forward to error handler
 app.use(({ next }) => {

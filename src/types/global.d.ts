@@ -2,7 +2,10 @@ declare const __CLIENT__: boolean;
 declare const __SERVER__: boolean;
 declare const __DEV__: boolean;
 declare const __PROD__: boolean;
-declare const __INIT_STATE__: boolean;
+
+interface Window {
+  __INITIAL_STATE__: Record<string, unknown>;
+}
 
 declare global {
   namespace NodeJS {

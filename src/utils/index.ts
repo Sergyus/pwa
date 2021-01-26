@@ -1,0 +1,1 @@
+export { jssServerSide } from './material';

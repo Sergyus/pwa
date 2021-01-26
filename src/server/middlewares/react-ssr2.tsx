@@ -4,9 +4,9 @@ import { Request, Response } from 'express';
 import { ChunkExtractor } from '@loadable/server';
 import { renderToNodeStream } from 'react-dom/server';
 import HtmlTemplate from '../template/HtmlTemplate';
-import { StaticRouter } from 'react-router';
+import { StaticRouter } from 'react-router-dom';
 import { ServerStyleSheets } from '@material-ui/core/styles';
-import App from '../../App';
+import _App from '../../_App';
 
 /**
  * React SSR
@@ -44,7 +44,7 @@ export default async function reactSSR2(
         css={css}
       >
         <StaticRouter location={req.url}>
-          <App />
+          <_App />
         </StaticRouter>
       </HtmlTemplate>,
     ),

@@ -1,16 +1,17 @@
-import Title from '../components/Title';
-import pic from './../assets/img/qwe.jpg';
+import React from 'react';
+import Title from 'components/Title';
+import pic from 'assets/img/qwe.jpg';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import React from 'react';
 import { useTranslation } from 'react-i18next';
+import styles from './home.module.css';
 
 export default function Home(): JSX.Element {
   const { t } = useTranslation(['menu']);
 
   return (
-    <>
+    <div className={styles.homePage}>
       <Title title={t('home')} />
       <h1>{t('translation:React')}</h1>
       <img src={pic} alt="pic" />
@@ -66,6 +67,6 @@ export default function Home(): JSX.Element {
           </Typography>
         </CardContent>
       </Card>
-    </>
+    </div>
   );
 }

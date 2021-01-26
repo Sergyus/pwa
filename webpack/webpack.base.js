@@ -19,6 +19,7 @@ module.exports = (mode) => {
           loader: 'babel-loader',
           options: {
             caller: { target },
+            cacheDirectory: isDev,
           },
         },
         'eslint-loader',
@@ -35,11 +36,19 @@ module.exports = (mode) => {
       use: [
         {
           loader: _MiniCssExtractPlugin.loader,
+          options: {},
+        },
+        {
+          loader: 'css-loader',
           options: {
-            //  esModule: false,
+            importLoaders: 2,
+            modules: {
+              auto: true,
+              localIdentName: '[name]__[local]___[hash:base64:5]',
+              localIdentContext: path.resolve(process.cwd(), 'src'),
+            },
           },
         },
-        'css-loader',
         {
           loader: 'postcss-loader',
           options: {
@@ -50,7 +59,10 @@ module.exports = (mode) => {
             sourceMap: isDev,
           },
         },
-        'sass-loader',
+        {
+          loader: 'sass-loader',
+          options: {},
+        },
       ],
     },
     html: {
@@ -70,9 +82,12 @@ module.exports = (mode) => {
   };
 
   const resolve = {
-    extensions: ['.tsx', '.ts', '.js', '.jsx', '.css', '.scss'],
+    extensions: ['.tsx', '.ts', '.js', '.jsx', '.css', '.scss', '.json'],
     alias: {
+      assets: path.resolve(__dirname, '../src/assets'),
       modules: path.resolve(__dirname, '../src/modules'),
+      components: path.resolve(__dirname, '../src/components'),
+      router: path.resolve(__dirname, '../src/router'),
     },
   };
 

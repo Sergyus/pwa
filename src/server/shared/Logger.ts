@@ -1,18 +1,22 @@
-/**
- * Setup the winston logger.
- *
- * Documentation: https://github.com/winstonjs/winston
- */
-
 import { createLogger, format, transports } from 'winston';
 
-// Import Functions
 const { File, Console } = transports;
 
-// Init Logger
+/**
+ * Init Logger
+ */
 export const logger = createLogger({
-  level: 'info',
+  level: 'debug', // info
 });
+
+/**
+ * Stream
+ */
+export const stream = {
+  write: (message: string): void => {
+    logger.info(message);
+  },
+};
 
 /**
  * For production write to all logs with level `info` and below
@@ -23,13 +27,13 @@ if (process.env.NODE_ENV === 'production') {
   const fileFormat = format.combine(format.timestamp(), format.json());
 
   const errTransport = new File({
-    filename: './logs/error.log',
+    filename: './build/logs/error.log',
     format: fileFormat,
     level: 'error',
   });
 
   const infoTransport = new File({
-    filename: './logs/combined.log',
+    filename: './build/logs/combined.log',
     format: fileFormat,
   });
 
@@ -38,7 +42,6 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   const errorStackFormat = format((info) => {
     if (info.stack) {
-      // tslint:disable-next-line:no-console
       console.warn(info.stack);
       return false;
     }
@@ -55,9 +58,3 @@ if (process.env.NODE_ENV === 'production') {
 
   logger.add(consoleTransport);
 }
-
-export const stream = {
-  write: (message: string): void => {
-    logger.info(message);
-  },
-};

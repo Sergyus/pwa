@@ -14,22 +14,20 @@ const Pwa = loadable(() => import('./pages/Pwa'));
 const Article = loadable(() => import('./pages/Article'));
 const NotFound = loadable(() => import('./pages/NotFound'));
 
-export default function App(): JSX.Element {
+export default function _App(): JSX.Element {
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <Layout>
-        <div className="page">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route exact path="/blog" component={Blog} />
-            <Route path="/blog/:id" component={Article} />
-            <Route path="/ui" component={Ui} />
-            <Route path="/pwa" component={Pwa} />
-            <Route path="/account" component={Account} />
-            <Route component={NotFound} />
-          </Switch>
-        </div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route exact path="/blog" component={Blog} />
+          <Route path="/blog/:id" component={Article} />
+          <Route path="/ui" component={Ui} />
+          <Route path="/pwa" component={Pwa} />
+          <Route path="/account" component={Account} />
+          <Route component={NotFound} />
+        </Switch>
       </Layout>
     </ErrorBoundary>
   );
