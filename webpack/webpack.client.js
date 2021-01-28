@@ -4,7 +4,6 @@ const LoadablePlugin = require('@loadable/webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const TerserJSPlugin = require('terser-webpack-plugin');
 const webpackConfig = require('./webpack.base');
-// const { WebpackPluginServe } = require('webpack-plugin-serve');
 
 module.exports = (env, { mode, liveReload }) => {
   const watchMode = liveReload || false;
@@ -15,15 +14,11 @@ module.exports = (env, { mode, liveReload }) => {
     context: __dirname,
     target: 'web',
     stats: 'minimal',
-    watch: true,
     entry: {
-      main: [
-        path.join(__dirname, '../src/index.tsx'),
-        // 'webpack-plugin-serve/client',
-      ],
+      main: [path.join(__dirname, '../src/index.tsx')],
     },
     output: {
-      path: path.join(__dirname, '../build/client'),
+      path: path.join(__dirname, '../build'),
       filename: isDev ? '[name].js' : '[name].[contenthash].js',
       publicPath: './',
       pathinfo: isDev,
@@ -37,17 +32,6 @@ module.exports = (env, { mode, liveReload }) => {
       ],
     },
     plugins: [
-      // new WebpackPluginServe({
-      //   liveReload: true,
-      //   historyFallback: true,
-      //   port: 3000,
-      //   host: 'localhost',
-      //   static: [path.join(__dirname, '../build/client')],
-      //   client: {
-      //     address: `localhost:3000`,
-      //   },
-      //   waitForBuild: true,
-      // }),
       new LoadablePlugin(),
       new webpack.ProgressPlugin(),
       new CleanWebpackPlugin(),

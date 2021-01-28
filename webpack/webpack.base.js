@@ -84,10 +84,10 @@ module.exports = (mode) => {
   const resolve = {
     extensions: ['.tsx', '.ts', '.js', '.jsx', '.css', '.scss', '.json'],
     alias: {
-      assets: path.resolve(__dirname, '../src/assets'),
-      modules: path.resolve(__dirname, '../src/modules'),
-      components: path.resolve(__dirname, '../src/components'),
-      router: path.resolve(__dirname, '../src/router'),
+      '@assets': path.resolve(__dirname, '../src/assets'),
+      '@modules': path.resolve(__dirname, '../src/modules'),
+      '@components': path.resolve(__dirname, '../src/components'),
+      '@router': path.resolve(__dirname, '../src/router'),
     },
   };
 
@@ -128,9 +128,9 @@ module.exports = (mode) => {
   const devtool = isProd ? false : 'source-map';
 
   return {
-    modules,
     resolve,
     devtool,
+    modules,
     ESLintPlugin,
     HtmlWebpackPlugin,
     MiniCssExtractPlugin,

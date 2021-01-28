@@ -1,3 +1,6 @@
 module.exports = {
-  plugins: [require('autoprefixer'), require('postcss-csso')],
+  plugins: [
+    require('autoprefixer'),
+    process.env.NO && require('postcss-csso'),
+  ].filter(Boolean),
 };

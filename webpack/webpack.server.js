@@ -5,8 +5,7 @@ const nodeExternals = require('webpack-node-externals');
 const webpackConfig = require('./webpack.base');
 const TerserJSPlugin = require('terser-webpack-plugin');
 const NodemonPlugin = require('nodemon-webpack-plugin');
-// const LoadablePlugin = require('@loadable/webpack-plugin');
-// const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+const LoadablePlugin = require('@loadable/webpack-plugin');
 
 module.exports = (env, { mode }) => {
   const isProd = mode === 'production';
@@ -18,10 +17,10 @@ module.exports = (env, { mode }) => {
     target: 'node',
     stats: 'minimal',
     entry: {
-      main: path.join(__dirname, '../src/server/', 'server.ts'),
+      server: path.join(__dirname, '../src/server/', 'server.ts'),
     },
     output: {
-      path: path.join(__dirname, '../build/server'),
+      path: path.join(__dirname, '../build'),
       filename: '[name].js',
       libraryTarget: 'commonjs2',
       publicPath: '/',
@@ -38,10 +37,7 @@ module.exports = (env, { mode }) => {
       open: true,
     },
     plugins: [
-      // new LoadablePlugin(),
-      // new TsconfigPathsPlugin({
-      //   extensions: ['.ts', '.tsx'],
-      // }),
+      new LoadablePlugin(),
       new webpack.ProgressPlugin(),
       new CleanWebpackPlugin(),
       new NodemonPlugin(),

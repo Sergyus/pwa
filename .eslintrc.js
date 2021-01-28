@@ -34,6 +34,11 @@ module.exports = {
       version: 'detect',
     },
   },
+  globals: {
+    __CLIENT__: true,
+    __SERVER__: true,
+    __DEV__: true,
+  },
   rules: {
     'prettier/prettier': 'error',
     'react/no-typos': 'error',
@@ -67,5 +72,6 @@ module.exports = {
     //     allow: ['debug', 'time', 'timeEnd', 'trace', 'info', 'warn', 'error'],
     //   },
     // ],
+    '@typescript-eslint/no-var-requires': 'off',
   },
 };

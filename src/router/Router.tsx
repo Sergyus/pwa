@@ -1,9 +1,9 @@
 import React from 'react';
-import { ErrorBoundary } from 'react-error-boundary';
-import ErrorFallback from '../components/ErrorFallback/ErrorFallback';
+import ErrorFallback from '@components/ErrorFallback/ErrorFallback';
 import { renderRoutes, RouteConfig } from 'react-router-config';
-import { config } from './consts';
-import Layout from 'components/Layout';
+import { ErrorBoundary } from 'react-error-boundary';
+import Layout from '@components/Layout';
+import { config } from '@router/config';
 
 /**
  * App Router

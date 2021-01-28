@@ -1,18 +1,18 @@
+import * as serviceWorker from '../serviceWorkerRegistration';
 import React, { useEffect } from 'react';
-import { hydrate } from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import { MuiThemeProvider } from '@material-ui/core/styles';
-import * as serviceWorker from './serviceWorkerRegistration';
-import { loadableReady } from '@loadable/component';
-import { I18nextProvider } from 'react-i18next';
-import { ApolloProvider } from '@apollo/client';
-import '@assets/styles/index.module.scss';
-import { jssServerSide } from './utils';
-import { theme } from './theme/theme';
-import { client } from '@libs/apollo';
-import Router from '@router/Router';
 import i18n from 'i18next';
-import './libs/i18n';
+import Router from '@router/Router';
+import { hydrate } from 'react-dom';
+import { jssServerSide } from '../utils';
+import { MuiThemeProvider } from '@material-ui/core';
+import { loadableReady } from '@loadable/component';
+import { BrowserRouter } from 'react-router-dom';
+import { ApolloProvider } from '@apollo/client';
+import { I18nextProvider } from 'react-i18next';
+import { theme } from '../theme/theme';
+import '@assets/styles/index.module.scss';
+import { client } from '@libs/apollo';
+import '@libs/i18n';
 
 /**
  * React App
@@ -36,5 +36,4 @@ loadableReady(() => {
   const root = document.getElementById('root');
   hydrate(<ReactApp />, root);
 });
-
 serviceWorker.register();

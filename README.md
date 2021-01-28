@@ -1,4 +1,4 @@
-### React SSR _App
+### React SSR \_App
 
 ![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/113px-React-icon.svg.png)
 
@@ -21,30 +21,30 @@
 
 ### MOBX
 
-- https://dev.to/ivandotv/mobx-server-side-rendering-with-next-js-4m18
+- https://dev.to/ivandotv/mobx-index-side-rendering-with-next-js-4m18
 
 ### SSR
 
 - https://github.com/codeshake/react-ssr-template
 - https://vc.ru/dev/160177-sozdanie-i-nastroyka-proekta-react-webpack-s-nulya-do-ssr
-- https://github.com/Lagily/react-typescript-express-server-side-rendering/tree/master/backend
+- https://github.com/Lagily/react-typescript-express-index-side-rendering/tree/master/backend
 - https://blog.logrocket.com/code-splitting-react-components-with-typescript-and-no-babel/
 - https://github.com/vip-git/react-ssr-advanced-seed/tree/master/src
-- https://github.com/ElCholoGamer/dankcord/blob/main/app/webpack/webpack.common.js
+- https://github.com/ElCholoGamer/dankcord/blob/main/index/webpack/webpack.common.js
 - https://github.com/KacperLochowski/react-webpack-boilerplate/blob/main/webpack.prod.js
 - https://ms314006.github.io/simple-implementing-ssr-in-react-with-redux/
 - https://github.com/ykfe/egg-react-ssr/blob/dev/example/ssr-with-mobx/web/entry.js
 - https://github.com/manuelbieh/react-ssr-setup
 - https://github.com/leebenson/reactql/blob/master/src/views/ssr.tsx
-- https://github.com/hiroppy/ssr-sample/tree/master/src/server
-- https://github.com/on3dd/mern-ssr-blog/blob/master/src/client/index.tsx
-- https://github.com/alexnm/react-ssr/blob/master/src/server.js
+- https://github.com/hiroppy/ssr-sample/tree/master/src/index
+- https://github.com/on3dd/mern-ssr-blog/blob/master/src/client/app.tsx
+- https://github.com/alexnm/react-ssr/blob/master/src/app.tsx
 - https://github.com/AlexSergey/issr/tree/master/examples/16-mobx/src
 
 ### EXPRESS
 
 - https://github.com/hagopj13/node-express-boilerplate
 - https://github.com/mxjoly/react-ssr-setup/blob/master/config/webpack/plugins.ts
-- https://github.com/ScorpionH/react-ssr-blog/blob/master/src/server/middlewares/react-ssr.tsx
+- https://github.com/ScorpionH/react-ssr-blog/blob/master/src/index/middlewares/react-ssr.tsx
 - https://github.com/on3dd/mern-ssr-blog
-- https://github.com/lauterry/perfect-react-app/tree/master/src/server
+- https://github.com/lauterry/perfect-react-index/tree/master/src/index

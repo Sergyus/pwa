@@ -10,7 +10,7 @@ type Props = {
 export default function Layout(props: Props): JSX.Element {
   return (
     <>
-      <div className="app-content">
+      <div className="index-content">
         <Header />
         <Container maxWidth="lg">{props.children}</Container>
       </div>

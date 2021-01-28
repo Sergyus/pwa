@@ -7,13 +7,18 @@ interface Window {
   __INITIAL_STATE__: Record<string, unknown>;
 }
 
-declare global {
-  namespace NodeJS {
-    interface ProcessEnv {
-      NODE_ENV: 'development' | 'production';
-      PUBLIC_URL: string;
-      PORT?: string;
-      PWD: string;
-    }
+declare namespace NodeJS {
+  interface ProcessEnv {
+    NODE_ENV: 'development' | 'production';
+    PUBLIC_URL: string;
+    PORT?: string;
+    PWD: string;
+  }
+  interface Global {
+    __CLIENT__: boolean;
+    __SERVER__: boolean;
+    __DEV__: boolean;
+    $RefreshReg$: () => void;
+    $RefreshSig$$: () => void;
   }
 }

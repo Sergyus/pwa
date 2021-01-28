@@ -7,7 +7,7 @@ const ErrorFallback: React.FC<FallbackProps> = ({ error }: FallbackProps) => (
     <p>Something went wrong.</p>
     <pre style={{ color: 'red' }}>{error?.message}</pre>
     <h3>
-      <a href="/">Home</a>
+      <a href="/">back to Home</a>
     </h3>
   </div>
 );

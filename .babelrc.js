@@ -1,6 +1,7 @@
 function isWebTarget(caller) {
   return Boolean(caller && caller.target === 'web');
 }
+
 function isWebpack(caller) {
   return Boolean(caller && caller.name === 'babel-loader');
 }
@@ -11,10 +12,10 @@ module.exports = (api) => {
 
   return {
     presets: [
-      '@babel/preset-typescript',
-      '@babel/preset-react',
+      '@babel/typescript',
+      '@babel/react',
       [
-        '@babel/preset-env',
+        '@babel/env',
         {
           useBuiltIns: web ? 'entry' : undefined,
           corejs: web ? 'core-js@3' : false,
@@ -24,8 +25,8 @@ module.exports = (api) => {
       ],
     ],
     plugins: [
-      '@babel/plugin-syntax-dynamic-import',
       '@loadable/babel-plugin',
+      '@babel/plugin-syntax-dynamic-import',
       ['@babel/plugin-proposal-decorators', { legacy: true }],
       ['@babel/plugin-proposal-class-properties', { loose: true }],
       [
@@ -35,5 +36,13 @@ module.exports = (api) => {
         },
       ],
     ],
+    env: {
+      development: {
+        plugins: ['react-refresh/babel'],
+      },
+      production: {
+        plugins: ['transform-remove-console'],
+      },
+    },
   };
 };

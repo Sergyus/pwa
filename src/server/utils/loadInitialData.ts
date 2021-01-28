@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { matchRoutes } from 'react-router-config';
-import { IRoute } from 'router/typings';
-import { config } from 'router/consts';
+import { IRoute } from '@router/typings';
+import { config } from '@router/config';
 
 type FnType = (req: Request, res: Response) => Promise<unknown> | void;
 

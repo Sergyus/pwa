@@ -37,9 +37,9 @@ export interface IRoute extends RouteConfig {
   path: PathType | PathType[];
   fetchData?: (data: FetchPropsType) => Promise<FetchDataType>[];
   routes?: IRoute[];
-  // fallback?: NonNullable<ReactNode> | null;
-  // redirect?: PathType;
-  // private?: boolean;
+  fallback?: NonNullable<ReactNode> | null;
+  redirect?: PathType;
+  private?: boolean;
 }
 
 export type RouterConfigType = {

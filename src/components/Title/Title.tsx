@@ -6,5 +6,5 @@ type Props = {
 };
 
 export default function Title(props: Props): JSX.Element {
-  return <h1 className="app-title">{props.title}</h1>;
+  return <h1 className="index-title">{props.title}</h1>;
 }
