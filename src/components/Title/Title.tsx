@@ -1,4 +1,4 @@
-import './title.scss';
+import styles from './styles.module.scss';
 import React from 'react';
 
 type Props = {
@@ -6,5 +6,5 @@ type Props = {
 };
 
 export default function Title(props: Props): JSX.Element {
-  return <h1 className="index-title">{props.title}</h1>;
+  return <h1 className={styles.title}>{props.title}</h1>;
 }

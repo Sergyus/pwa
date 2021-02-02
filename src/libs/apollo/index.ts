@@ -4,4 +4,5 @@ import { CONFIG } from './consts';
 export const client = new ApolloClient({
   uri: CONFIG.url,
   cache: new InMemoryCache(),
+  connectToDevTools: true,
 });

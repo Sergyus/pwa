@@ -2,21 +2,126 @@
 
 schema {
   query: Query
+  mutation: Mutation
 }
 
-type ExchangeRate {
-  currency: String
-  name: String
-  rate: String
+type Address {
+  city: String!
+  geo: Geo!
+  street: String!
+  suite: String!
+  zipcode: String!
+}
+
+type Comment {
+  author: User!
+  body: String!
+  id: ID!
+  post: Post!
+}
+
+type CommentWithPagination {
+  count: Int!
+  currentPage: Int!
+  data: [Comment!]
+  totalPages: Int!
+}
+
+type Company {
+  bs: String!
+  catchPhrase: String!
+  name: String!
+}
+
+type Geo {
+  lat: Float!
+  lng: Float!
+}
+
+type Mutation {
+  addComment(data: CommentInput!): Comment!
+  addPost(data: PostInput!): Post!
+  deleteComment(commentId: ID!): Comment!
+  deletePost(postId: ID!): Post!
+  updateComment(commentId: ID!, data: CommentUpdateInput!): Comment!
+  updatePost(data: PostUpdateInput!, postId: ID!): Post!
+}
+
+type Post {
+  author: User!
+  body: String!
+  comments: [Comment!]!
+  id: ID!
+  title: String!
+}
+
+type PostWithPagination {
+  count: Int!
+  currentPage: Int!
+  data: [Post!]
+  totalPages: Int!
 }
 
 type Query {
-  rates(currency: String!): [ExchangeRate]
+  comment(commentId: ID!): Comment!
+  comments(pagination: PaginationInput): CommentWithPagination!
+  post(postId: ID!): Post!
+  posts(pagination: PaginationInput): PostWithPagination!
+  user(userId: Int!): User!
+  users(
+    pagination: PaginationInput = { limit: 10, page: 1 }
+  ): UserWithPagination!
+}
+
+type User {
+  address: Address
+  company: Company!
+  email: String!
+  id: ID!
+  name: String!
+  phone: String!
+  posts: [Post!]!
+  username: String!
+  website: String!
+}
+
+type UserWithPagination {
+  count: Int!
+  currentPage: Int!
+  data: [User!]
+  totalPages: Int!
 }
 
 enum CacheControlScope {
   PRIVATE
   PUBLIC
+}
+
+input CommentInput {
+  body: String!
+  postId: Int!
+  userId: Int!
+}
+
+input CommentUpdateInput {
+  body: String
+}
+
+input PaginationInput {
+  limit: Int = 10
+  page: Int = 1
+}
+
+input PostInput {
+  body: String!
+  title: String!
+  userId: Int!
+}
+
+input PostUpdateInput {
+  body: String
+  title: String
+  userId: Int
 }
 
 "The `Upload` scalar type represents a file upload."

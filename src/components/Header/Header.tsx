@@ -32,6 +32,7 @@ import clsx from 'clsx';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import OfflineIndicator from './components/OfflineIndicator';
 import LangSwitcher from './components/LangSwitcher';
+import { useState, MouseEvent } from 'react';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -108,13 +109,13 @@ const useStyles = makeStyles((theme: Theme) =>
 export default function Header(): JSX.Element {
   const history = useHistory();
   const classes = useStyles();
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [
     mobileMoreAnchorEl,
     setMobileMoreAnchorEl,
-  ] = React.useState<null | HTMLElement>(null);
+  ] = useState<null | HTMLElement>(null);
 
-  const [isOpen, setOpen] = React.useState(false);
+  const [isOpen, setOpen] = useState(false);
 
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
@@ -123,7 +124,7 @@ export default function Header(): JSX.Element {
     setOpen(!isOpen);
   }
 
-  function handleProfileMenuOpen(event: React.MouseEvent<HTMLElement>) {
+  function handleProfileMenuOpen(event: MouseEvent<HTMLElement>) {
     setAnchorEl(event.currentTarget);
   }
 

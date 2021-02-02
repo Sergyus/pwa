@@ -28,7 +28,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
 app.use(compression({ level: 5 }));
 app.use(favicon(path.resolve(process.cwd(), 'public/favicon.ico')));
-app.use(express.static(path.resolve('build')));
+app.use(express.static(path.resolve(process.cwd(), 'public')));
 
 // Enable dev-server in development
 if (__DEV__) devServer(app);

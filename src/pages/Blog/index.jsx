@@ -10,5 +10,5 @@ const Blog = loadable(() => import('./Blog'), {
   fallback: <Loading />,
 });
 
-// eslint-disable-next-line react/display-name
+// eslint-disable-next-line react/display-name,@typescript-eslint/explicit-module-boundary-types
 export default (props) => <Blog {...props} />;

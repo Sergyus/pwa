@@ -3,10 +3,6 @@ import { initReactI18next } from 'react-i18next';
 import detector from 'i18next-browser-languagedetector';
 import backend from 'i18next-xhr-backend';
 
-// import en from '../../../public/locales/en/en.json';
-// import ru from '../../../public/locales/ru/ru.json';
-// import uk from '../../../public/locales/uk/uk.json';
-
 export const LANGUAGES = ['en', 'ru', 'uk'];
 
 export default i18n

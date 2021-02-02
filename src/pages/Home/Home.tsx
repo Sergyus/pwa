@@ -11,14 +11,12 @@ export default function Home(): JSX.Element {
   const { t } = useTranslation(['menu']);
 
   return (
-    <div className={styles.homePage}>
+    <div className={styles.HomePage}>
       <Title title={t('home')} />
       <h1>{t('translation:React')}</h1>
       <img src={pic} alt="pic" />
-
       <br />
       <br />
-
       <Card>
         <CardContent>
           <Typography gutterBottom variant="h6" component="h2">

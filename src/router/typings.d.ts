@@ -1,6 +1,5 @@
-import { RouteConfig, RouteConfigComponentProps } from 'react-router-config';
+import { RouteConfig } from 'react-router-config';
 import { match } from 'react-router';
-import * as React from 'react';
 
 type PagesType =
   | 'Home'
@@ -9,6 +8,7 @@ type PagesType =
   | 'Article'
   | 'Ui'
   | 'Pwa'
+  | 'Apollo'
   | 'Login'
   | 'Account'
   | '404';
@@ -20,6 +20,7 @@ type PathType =
   | '/blog/:id'
   | '/ui'
   | '/pwa'
+  | '/apollo'
   | '/login'
   | '/account'
   | '/404'
@@ -39,6 +40,7 @@ export interface IRoute extends RouteConfig {
   path: PathType | PathType[];
   fetchData?: (data: FetchPropsType) => Promise<FetchDataType>[];
   routes?: IRoute[];
+  inMenu?: boolean;
 }
 
 export type RouterConfigType = {

@@ -27,6 +27,10 @@ export default function Navigation(): JSX.Element {
       name: 'Pwa',
       link: '/pwa',
     },
+    {
+      name: 'Apollo',
+      link: '/apollo',
+    },
   ];
   return (
     <div className="nav-header">

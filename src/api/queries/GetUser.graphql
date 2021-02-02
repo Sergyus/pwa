@@ -1,0 +1,15 @@
+query GetUsers($params: PaginationInput!) {
+  users(pagination: $params) {
+    data {
+      id
+      name
+      username
+      email
+      phone
+      website
+    }
+    count
+    currentPage
+    totalPages
+  }
+}

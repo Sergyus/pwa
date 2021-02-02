@@ -5,6 +5,7 @@ declare const __PROD__: boolean;
 
 interface Window {
   __INITIAL_STATE__: Record<string, unknown>;
+  __APOLLO_STATE__: Record<string, unknown>;
 }
 
 declare namespace NodeJS {

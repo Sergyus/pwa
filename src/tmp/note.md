@@ -6,6 +6,11 @@
 - https://github.com/shtanko-michael/react-multiple-layouts-example/blob/master/src/components/PrivateRoute/PrivateRoute.tsx
 - https://itnext.io/react-router-transitions-with-lazy-loading-2faa7a1d24a
 
+### GQL
+
+- https://stackoverflow.com/questions/56244030/prevent-client-side-re-render-when-using-ssr-and-apollo-client
+- https://github.com/dotansimha/graphql-code-generator/issues/3272
+
 ### ROUTER
 
 - https://medium.com/@michael.kutateladze/react-router-with-a-single-config-file-61777f306b4f

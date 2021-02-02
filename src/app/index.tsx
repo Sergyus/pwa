@@ -7,5 +7,5 @@ type RouterAppProps = {
 };
 
 export default function App({ route }: RouterAppProps): JSX.Element {
-  return <div>{renderRoutes(route.routes as RouteConfig[])}</div>;
+  return <>{renderRoutes(route.routes as RouteConfig[])}</>;
 }

@@ -12,6 +12,7 @@ import {
   NotFound,
   Account,
   Pwa,
+  Apollo,
 } from '@pages/index';
 
 /**
@@ -26,17 +27,21 @@ export const config: RouterConfigType[] = [
         name: 'Home',
         exact: true,
         component: Home,
+        inMenu: true,
       },
       {
         path: '/about',
         name: 'About',
         component: About,
+        inMenu: true,
       },
       {
         path: '/blog',
         name: 'Blog',
+        exact: true,
         component: Blog,
         fetchData: () => [PostService.getPosts()],
+        inMenu: true,
       },
       {
         path: '/blog/:id',
@@ -47,11 +52,19 @@ export const config: RouterConfigType[] = [
         path: '/ui',
         name: 'Ui',
         component: Ui,
+        inMenu: true,
       },
       {
         path: '/pwa',
         name: 'Pwa',
         component: Pwa,
+        inMenu: true,
+      },
+      {
+        path: '/apollo',
+        name: 'Apollo',
+        component: Apollo,
+        inMenu: true,
       },
       {
         path: '/login',

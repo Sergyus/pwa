@@ -22,5 +22,8 @@ import Ui from './Ui';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import Pwa from './Pwa';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import Apollo from './Apollo';
 
-export { Home, Blog, About, Account, Article, NotFound, Ui, Pwa };
+export { Home, Blog, About, Account, Article, NotFound, Ui, Pwa, Apollo };

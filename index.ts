@@ -1,4 +1,5 @@
-// Allows you to pre-compile ES6 syntax
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 require('@babel/register')();
 // Used by react-refresh
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment

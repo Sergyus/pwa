@@ -1,0 +1,33 @@
+overwrite: true
+schema: 'https://api.graphqlplaceholder.com'
+documents: 'src/api/queries/**/*.graphql'
+hooks:
+  afterOneFileWrite:
+    - prettier --write
+generates:
+  # -------------------------------------------------
+  # types.d.ts
+  # -------------------------------------------------
+  ./src/api/generated/types.d.ts:
+    config:
+      commentDescriptions: true
+    plugins:
+      - 'typescript'
+  # -------------------------------------------------
+  # types.graphql-gen.ts
+  # -------------------------------------------------
+  ./src/api/queries:
+    preset: 'near-operation-file'
+    presetConfig:
+      folder: 'methods'
+      baseTypesPath: '../generated/types.d.ts'
+      extension: '.ts'
+    plugins:
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
+      - 'named-operations-object'
+    config:
+      reactApolloVersion: 3
+      withHOC: false
+      withHooks: false
+      withComponent: false

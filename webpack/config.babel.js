@@ -57,6 +57,7 @@ module.exports = {
     descriptionFiles: ['package.json'],
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.css', '.scss', '.json'],
     alias: {
+      '@api': path.resolve(__dirname, '../src/api'),
       '@pages': path.resolve(__dirname, '../src/pages'),
       '@assets': path.resolve(__dirname, '../src/assets'),
       '@modules': path.resolve(__dirname, '../src/modules'),
@@ -105,7 +106,10 @@ module.exports = {
         use: [
           {
             loader: 'url-loader',
-            options: { limit: 10 * 1024, name: '[name].[contenthash:8].[ext]' },
+            options: {
+              limit: 10 * 1024,
+              name: 'img/[name].[ext]',
+            },
           },
           {
             loader: 'image-webpack-loader',
@@ -142,7 +146,7 @@ module.exports = {
     isDev &&
       new ReactRefreshWebpackPlugin({ overlay: { sockIntegration: 'whm' } }),
     isDev && new ForkTsCheckerWebpackPlugin(),
-    !isDev && new webpack.HashedModuleIdsPlugin(),
+    // !isDev && new webpack.HashedModuleIdsPlugin(),
     !isDev &&
       new CompressionPlugin({
         test: /\.(js|css|html)$/,

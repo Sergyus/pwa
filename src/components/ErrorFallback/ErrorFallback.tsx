@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { FallbackProps } from 'react-error-boundary';
 
-const ErrorFallback: React.FC<FallbackProps> = ({ error }: FallbackProps) => (
+const ErrorFallback: FC<FallbackProps> = ({ error }: FallbackProps) => (
   <div className="container">
     <h1>ErrorFallback</h1>
     <p>Something went wrong.</p>
