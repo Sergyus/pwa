@@ -1,4 +1,4 @@
-import Title from '../components/Title';
+import Title from '../../components/Title';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import CardContent from '@material-ui/core/CardContent';

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import Title from '../components/Title';
-import MediaCard from '../components/UI/MediaCard';
+import Title from '@components/Title';
+import MediaCard from '@components/UI/MediaCard';
 import { Grid } from '@material-ui/core';
 import Skeleton from 'react-loading-skeleton';
-// import PostService from './../modules/Post';
+import PostService from '@modules/Post';
 import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 import { useTranslation } from 'react-i18next';
@@ -15,10 +15,10 @@ export default function Blog(): JSX.Element {
   const { t } = useTranslation(['menu']);
 
   useEffect(() => {
-    // PostService.getPosts(1, 4).then((posts) => {
-    //   setPosts(posts);
-    setOpen(false);
-    // });
+    PostService.getPosts(1, 4).then((posts) => {
+      setPosts(posts);
+      setOpen(false);
+    });
   }, []);
 
   function addNew() {

@@ -11,7 +11,6 @@ import CompressionPlugin from 'compression-webpack-plugin';
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 import LoadablePlugin from '@loadable/webpack-plugin';
 import FriendlyErrorsWebpackPlugin from '@soda/friendly-errors-webpack-plugin';
-const nodeExternals = require('webpack-node-externals');
 
 const isDev = process.env.NODE_ENV !== 'production';
 
@@ -37,40 +36,38 @@ const getStyleLoaders = (sass = false) =>
 /********************************************
  * WEBPACK
  *******************************************/
-const getConfig = (target) => ({
-  name: target,
-  target,
+module.exports = {
   mode: isDev ? 'development' : 'production',
   devtool: isDev ? 'eval-source-map' : false,
   stats: 'minimal',
   context: path.resolve(process.cwd()),
   entry: [
-    `./src/client/main-${target}.js`,
-    isDev && target === 'web' && 'webpack-hot-middleware/client?reload=true',
+    isDev && 'webpack-hot-middleware/client?reload=true',
+    './src/client',
   ].filter(Boolean),
   output: {
-    path: path.resolve(process.cwd(), `public/assets/${target}`),
+    path: path.resolve(process.cwd(), 'public/assets'),
+    publicPath: '/assets/',
     filename: isDev ? '[name].js' : '[name].[contenthash:8].js',
     chunkFilename: isDev ? '[id].js' : '[id].[contenthash:8].js',
-    publicPath: `/assets/${target}/`,
-    libraryTarget: target === 'node' ? 'commonjs2' : undefined,
     pathinfo: isDev,
   },
-  externals: target === 'node' ? [nodeExternals()] : undefined,
   resolve: {
     modules: ['src', 'node_modules'],
     descriptionFiles: ['package.json'],
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.css', '.scss', '.json'],
     alias: {
+      '@pages': path.resolve(__dirname, '../src/pages'),
       '@assets': path.resolve(__dirname, '../src/assets'),
       '@modules': path.resolve(__dirname, '../src/modules'),
       '@components': path.resolve(__dirname, '../src/components'),
       '@router': path.resolve(__dirname, '../src/router'),
       '@libs': path.resolve(__dirname, '../src/libs'),
+      '@utils': path.resolve(__dirname, '../src/utils'),
     },
   },
   optimization: {
-    runtimeChunk: target !== 'node',
+    runtimeChunk: true,
     minimizer: [new TerserJSPlugin(), new OptimizeCSSAssetsPlugin()],
     splitChunks: {
       chunks: isDev ? 'async' : 'all',
@@ -104,24 +101,11 @@ const getConfig = (target) => ({
         loader: 'file-loader',
       },
       {
-        test: /\.(gif|png|jpe?g|webp|svg|html)$/,
+        test: /\.(gif|png|jpe?g|webp|svg)$/,
         use: [
           {
             loader: 'url-loader',
-            options: {
-              // limit: 10 * 1024,
-              generator: (content, mimetype, encoding, resourcePath) => {
-                if (/\.html$/i.test(resourcePath)) {
-                  return `data:${mimetype},${content.toString()}`;
-                }
-
-                return `data:${mimetype}${
-                  encoding ? `;${encoding}` : ''
-                },${content.toString(encoding)}`;
-              },
-              //    name: '[name].[contenthash:8].[ext]',
-              // esModule: false,
-            },
+            options: { limit: 10 * 1024, name: '[name].[contenthash:8].[ext]' },
           },
           {
             loader: 'image-webpack-loader',
@@ -140,8 +124,8 @@ const getConfig = (target) => ({
     new CleanWebpackPlugin(),
     new webpack.ProgressPlugin(),
     new LoadablePlugin({
-      //   writeToDisk: true,
-      // filename: '../loadable-stats.json',
+      writeToDisk: true,
+      filename: '../loadable-stats.json',
     }),
     new MiniCssExtractPlugin({
       // Don't use hash in development, we need the persistent for "renderHtml.ts"
@@ -172,6 +156,4 @@ const getConfig = (target) => ({
           process.env.NODE_ENV === 'analyze' ? 'server' : 'disabled',
       }),
   ].filter(Boolean),
-});
-
-module.exports = [getConfig('web'), getConfig('node')];
+};

@@ -1,10 +1,10 @@
 import React from 'react';
-import Title from '../components/Title';
+import Title from '@components/Title';
 import { createStyles, makeStyles } from '@material-ui/styles';
 import { Button, ButtonGroup, Theme } from '@material-ui/core';
-import CheckboxLabels from '../components/UI/CheckboxLabels';
-import FloatingActionButtons from '../components/UI/FloatingActionButtons';
-import SwitchLabels from '../components/UI/SwitchLabels';
+import CheckboxLabels from '@components/UI/CheckboxLabels';
+import FloatingActionButtons from '@components/UI/FloatingActionButtons';
+import SwitchLabels from '@components/UI/SwitchLabels';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({

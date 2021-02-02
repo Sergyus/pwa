@@ -1,0 +1,16 @@
+{
+  "name": "Untitled GraphQL Schema",
+  "documents": "./src/graphql/queries/**/*.graphql",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "DEV": {
+        "url": "https://48p1r2roz4.sse.codesandbox.io",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

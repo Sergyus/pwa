@@ -19,10 +19,7 @@ export async function ssr(req: Request, res: Response): Promise<void> {
   //   process.cwd(),
   //   'public/assets/node/loadable-stats.json',
   // );
-  const statsFile = path.resolve(
-    process.cwd(),
-    'public/assets/web/loadable-stats.json',
-  );
+  const statsFile = path.resolve(process.cwd(), 'public/loadable-stats.json');
 
   // const nodeExtractor = new ChunkExtractor({ statsFile: nodeStats });
   // const { default: App } = nodeExtractor.requireEntrypoint();
@@ -60,9 +57,6 @@ export async function ssr(req: Request, res: Response): Promise<void> {
 
   const minCss = new CleanCSS({}).minify(sheets.toString());
   const styles = `<style id="jss-server-side">${minCss.styles}</style>`;
-  // const devServer = `${
-  //   __DEV__ ? renderToStaticMarkup(<script src="./dev-server.js" />) : ''
-  // }`;
 
   res.render('index', {
     lang: 'ru',
@@ -70,8 +64,7 @@ export async function ssr(req: Request, res: Response): Promise<void> {
     styleTags,
     styles,
     html,
-    scripts,
     state,
-    devServer: '',
+    scripts,
   });
 }

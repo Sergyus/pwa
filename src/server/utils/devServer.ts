@@ -10,13 +10,10 @@ export const devServer = (app: Express): void => {
   const compiler = webpack(webpackConfig);
 
   const instance = require('webpack-dev-middleware')(compiler, {
-    publicPath: webpackConfig[0].output.publicPath, // '/assets/web',
+    publicPath: webpackConfig.output.publicPath,
     headers: { 'Access-Control-Allow-Origin': '*' },
     stats: 'minimal',
     serverSideRender: true,
-    writeToDisk(filePath: string) {
-      return /assets\/node\//.test(filePath) || /loadable-stats/.test(filePath);
-    },
   });
 
   app.use(instance);

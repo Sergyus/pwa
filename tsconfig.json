@@ -2,15 +2,17 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "@pages/*": ["src/pages/*"],
       "@assets/*": ["src/assets/*"],
       "@modules/*": ["src/modules/*"],
       "@components/*": ["src/components/*"],
       "@router/*": ["src/router/*"],
-      "@libs/*": ["src/libs/*"]
+      "@libs/*": ["src/libs/*"],
+      "@utils/*": ["src/utils/*"]
     },
     "outDir": "./build",
     "sourceMap": true,
-    "target": "es5",
+    "target": "ESNext",
     "module": "commonjs",
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "react",

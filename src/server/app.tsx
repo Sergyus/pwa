@@ -1,15 +1,13 @@
 import path from 'path';
 import logger from 'morgan';
 import express from 'express';
-// import createError from 'http-errors';
 import cookieParser from 'cookie-parser';
 import helmet from 'helmet';
 import compression from 'compression';
-// import { ssr } from './middlewares';
-import appRouters from './routes';
-import { devServer } from './utils';
 import favicon from 'serve-favicon';
+import { devServer } from './utils';
 import { ssr } from './middlewares';
+import appRouters from './routes';
 
 const app = express();
 
@@ -37,17 +35,5 @@ if (__DEV__) devServer(app);
 
 app.use('/', appRouters);
 app.use(ssr);
-// Use React server-side rendering middleware
-// app.get('*', ssr);
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// app.listen(config.PORT, config.HOST, (error) => {
-//   if (error) console.error(chalk.red(`==> 😭  OMG!!! ${error}`));
-// });
-// catch 404 and forward to error handler
-// app.use(({ next }) => {
-//   if (next) {
-//     next(createError(404));
-//   }
-// });
 
 export default app;

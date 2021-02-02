@@ -3,7 +3,7 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import IconButton from '@material-ui/core/IconButton';
 import i18n from 'i18next';
-import { LANGUAGES } from '../../../../libs/i18n';
+import { LANGUAGES } from '@libs/i18n';
 
 export default function LangSwitcher(): JSX.Element {
   const [anchorLangEl, setAnchorLangEl] = useState<null | HTMLElement>(null);

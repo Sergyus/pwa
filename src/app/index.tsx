@@ -1,5 +1,5 @@
 import React from 'react';
-import { renderRoutes } from 'react-router-config';
+import { renderRoutes, RouteConfig } from 'react-router-config';
 import { IRoute } from '@router/typings';
 
 type RouterAppProps = {
@@ -7,5 +7,5 @@ type RouterAppProps = {
 };
 
 export default function App({ route }: RouterAppProps): JSX.Element {
-  return <div>{renderRoutes(route.routes)}</div>;
+  return <div>{renderRoutes(route.routes as RouteConfig[])}</div>;
 }
