@@ -1,0 +1,2 @@
+(this.webpackJsonpwww=this.webpackJsonpwww||[]).push([[13],{282:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return r}));var o=t(4);t(0);function r(){return Object(o.jsxs)("div",{style:{marginTop:"20px"},children:[Object(o.jsx)("h1",{children:"404 ERROR!"}),Object(o.jsx)("div",{style:{fontSize:"24px",marginBottom:"5px"},children:"Page not found :("}),Object(o.jsx)("p",{children:"Maybe the page you are looking for has been removed, or you typed in the wrong URL"})]})}}}]);
+//# sourceMappingURL=13.a6b36a34.chunk.js.map

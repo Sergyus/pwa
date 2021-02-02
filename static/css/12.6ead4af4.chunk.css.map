@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Title/styles.module.scss"],"names":[],"mappings":"AAAA,qBACE,eAAgB,CAChB,kBAAmB","file":"12.6ead4af4.chunk.css","sourcesContent":[".title {\n  margin-top: 15px;\n  margin-bottom: 30px;\n}\n"]}

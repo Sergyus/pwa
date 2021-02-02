@@ -1,72 +1,99 @@
 {
-  "hash": "c3093fd2857c355b05d2",
+  "hash": "bbacef3eab8a1f475f3d",
   "version": "5.19.0",
   "publicPath": "/assets/",
   "outputPath": "C:\\web\\sergyus\\public\\assets",
   "assetsByChunkName": {
     "main": [
-      "main.css",
-      "main.js"
+      "main.184e8e1c.css",
+      "main.108f6342.js"
     ],
     "runtime~main": [
-      "runtime~main.js"
+      "runtime~main.9455c6a1.js"
     ],
     "Home": [
-      "Home.css",
-      "Home.js"
+      "268.c7b90dca.css",
+      "268.8a229181.js"
     ],
     "Blog": [
-      "Blog.css",
-      "Blog.js"
+      "397.fa7d6c00.css",
+      "397.5e73e70a.js"
     ],
     "About": [
-      "About.css",
-      "About.js"
+      "74.fa7d6c00.css",
+      "74.52268c31.js"
     ],
     "Account": [
-      "Account.css",
-      "Account.js"
+      "918.fa7d6c00.css",
+      "918.aac5afa7.js"
     ],
     "Article": [
-      "Article.css",
-      "Article.js"
+      "951.fa7d6c00.css",
+      "951.742b01e2.js"
     ],
     "NotFound": [
-      "NotFound.js"
+      "187.6442a925.js"
     ],
     "Ui": [
-      "Ui.css",
-      "Ui.js"
+      "425.fa7d6c00.css",
+      "425.db64a32c.js"
     ],
     "Pwa": [
-      "Pwa.css",
-      "Pwa.js"
+      "67.fa7d6c00.css",
+      "67.bee257c7.js"
     ],
     "Apollo": [
-      "Apollo.css",
-      "Apollo.js"
+      "312.fa7d6c00.css",
+      "312.65f0142c.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "main.js",
-      "size": 8800790,
+      "name": "468.8a74fec8.js",
+      "size": 645241,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false
+        "immutable": true,
+        "contenthash": "8a74fec8",
+        "javascriptModule": false,
+        "minimized": true,
+        "related": {
+          "license": "468.8a74fec8.js.LICENSE.txt"
+        }
       },
-      "chunkNames": [
-        "main"
+      "chunkNames": [],
+      "chunkIdHints": [
+        "vendors"
       ],
-      "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
-      "related": {},
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "license",
+          "name": "468.8a74fec8.js.LICENSE.txt",
+          "size": 2256,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "extractedComments": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [],
+          "isOverSizeLimit": false
+        }
+      ],
       "chunks": [
-        "main"
+        468
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -88,7 +115,7 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        "Pwa"
+        67
       ],
       "isOverSizeLimit": false
     },
@@ -109,54 +136,8 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        "Pwa"
+        67
       ],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0.js",
-      "size": 221921,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false
-      },
-      "chunkNames": [],
-      "chunkIdHints": [
-        "vendors"
-      ],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e.js",
-      "size": 183717,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false
-      },
-      "chunkNames": [],
-      "chunkIdHints": [
-        "vendors"
-      ],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e"
-      ],
-      "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
@@ -176,7 +157,7 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        "Home"
+        268
       ],
       "isOverSizeLimit": false
     },
@@ -197,19 +178,46 @@
       "related": {},
       "chunks": [],
       "auxiliaryChunks": [
-        "Pwa"
+        67
       ],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e.js",
-      "size": 94422,
+      "name": "main.184e8e1c.css",
+      "size": 53898,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false
+        "immutable": true,
+        "contenthash": "184e8e1c"
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        179
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "572.077253ba.js",
+      "size": 30805,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "077253ba",
+        "javascriptModule": false,
+        "minimized": true
       },
       "chunkNames": [],
       "chunkIdHints": [
@@ -219,19 +227,24 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e"
+        572
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "main.css",
-      "size": 70546,
+      "name": "main.108f6342.js",
+      "size": 20686,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
-      "info": {},
+      "info": {
+        "immutable": true,
+        "contenthash": "108f6342",
+        "javascriptModule": false,
+        "minimized": true
+      },
       "chunkNames": [
         "main"
       ],
@@ -240,66 +253,23 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "main"
+        179
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "Ui.js",
-      "size": 65389,
+      "name": "337.25ff8b66.js",
+      "size": 16425,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false
-      },
-      "chunkNames": [
-        "Ui"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "Ui"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "Article.js",
-      "size": 64477,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false
-      },
-      "chunkNames": [
-        "Article"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "Article"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c.js",
-      "size": 55194,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false
+        "immutable": true,
+        "contenthash": "25ff8b66",
+        "javascriptModule": false,
+        "minimized": true
       },
       "chunkNames": [],
       "chunkIdHints": [
@@ -309,20 +279,127 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c"
+        337
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "runtime~main.js",
-      "size": 52988,
+      "name": "74.52268c31.js",
+      "size": 11020,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false
+        "immutable": true,
+        "contenthash": "52268c31",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "About"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        74
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "312.65f0142c.js",
+      "size": 5994,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "65f0142c",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "Apollo"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        312
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "425.db64a32c.js",
+      "size": 5856,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "db64a32c",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "Ui"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        425
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "951.742b01e2.js",
+      "size": 4805,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "742b01e2",
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "Article"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        951
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "runtime~main.9455c6a1.js",
+      "size": 4565,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "9455c6a1",
+        "javascriptModule": false,
+        "minimized": true
       },
       "chunkNames": [
         "runtime~main"
@@ -332,20 +409,23 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "runtime~main"
+        303
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "Home.js",
-      "size": 46195,
+      "name": "268.8a229181.js",
+      "size": 4075,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false
+        "immutable": true,
+        "contenthash": "8a229181",
+        "javascriptModule": false,
+        "minimized": true
       },
       "chunkNames": [
         "Home"
@@ -355,20 +435,23 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "Home"
+        268
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "Blog.js",
-      "size": 41275,
+      "name": "397.5e73e70a.js",
+      "size": 3789,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false
+        "immutable": true,
+        "contenthash": "5e73e70a",
+        "javascriptModule": false,
+        "minimized": true
       },
       "chunkNames": [
         "Blog"
@@ -378,66 +461,23 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "Blog"
+        397
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "Apollo.js",
-      "size": 32580,
+      "name": "67.bee257c7.js",
+      "size": 789,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false
-      },
-      "chunkNames": [
-        "Apollo"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "Apollo"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "About.js",
-      "size": 28150,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false
-      },
-      "chunkNames": [
-        "About"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "About"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "Pwa.js",
-      "size": 22543,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false
+        "immutable": true,
+        "contenthash": "bee257c7",
+        "javascriptModule": false,
+        "minimized": true
       },
       "chunkNames": [
         "Pwa"
@@ -447,43 +487,23 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "Pwa"
+        67
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "Account.js",
-      "size": 17000,
+      "name": "187.6442a925.js",
+      "size": 489,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
-        "javascriptModule": false
-      },
-      "chunkNames": [
-        "Account"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "Account"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "NotFound.js",
-      "size": 6502,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {
-        "javascriptModule": false
+        "immutable": true,
+        "contenthash": "6442a925",
+        "javascriptModule": false,
+        "minimized": true
       },
       "chunkNames": [
         "NotFound"
@@ -493,61 +513,24 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "NotFound"
+        187
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "Home.css",
-      "size": 170,
+      "name": "918.aac5afa7.js",
+      "size": 439,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
-      "info": {},
-      "chunkNames": [
-        "Home"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "Home"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "About.css",
-      "size": 70,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {},
-      "chunkNames": [
-        "About"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "About"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "Account.css",
-      "size": 70,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {},
+      "info": {
+        "immutable": true,
+        "contenthash": "aac5afa7",
+        "javascriptModule": false,
+        "minimized": true
+      },
       "chunkNames": [
         "Account"
       ],
@@ -556,40 +539,190 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
+        918
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "268.c7b90dca.css",
+      "size": 91,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "c7b90dca"
+      },
+      "chunkNames": [
+        "Home"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        268
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "312.fa7d6c00.css",
+      "size": 43,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "fa7d6c00"
+      },
+      "chunkNames": [
+        "Apollo"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        312
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "397.fa7d6c00.css",
+      "size": 43,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "fa7d6c00"
+      },
+      "chunkNames": [
+        "Blog"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        397
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "425.fa7d6c00.css",
+      "size": 43,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "fa7d6c00"
+      },
+      "chunkNames": [
+        "Ui"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        425
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "67.fa7d6c00.css",
+      "size": 43,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "fa7d6c00"
+      },
+      "chunkNames": [
+        "Pwa"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        67
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "74.fa7d6c00.css",
+      "size": 43,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "fa7d6c00"
+      },
+      "chunkNames": [
+        "About"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        74
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "918.fa7d6c00.css",
+      "size": 43,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "fa7d6c00"
+      },
+      "chunkNames": [
         "Account"
       ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "Apollo.css",
-      "size": 70,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {},
-      "chunkNames": [
-        "Apollo"
-      ],
       "chunkIdHints": [],
       "auxiliaryChunkNames": [],
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "Apollo"
+        918
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
     {
       "type": "asset",
-      "name": "Article.css",
-      "size": 70,
+      "name": "951.fa7d6c00.css",
+      "size": 43,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
-      "info": {},
+      "info": {
+        "immutable": true,
+        "contenthash": "fa7d6c00"
+      },
       "chunkNames": [
         "Article"
       ],
@@ -598,70 +731,7 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        "Article"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "Blog.css",
-      "size": 70,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {},
-      "chunkNames": [
-        "Blog"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "Blog"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "Pwa.css",
-      "size": 70,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {},
-      "chunkNames": [
-        "Pwa"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "Pwa"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "Ui.css",
-      "size": 70,
-      "emitted": false,
-      "comparedForEmit": false,
-      "cached": true,
-      "info": {},
-      "chunkNames": [
-        "Ui"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        "Ui"
+        951
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -669,262 +739,14 @@
   ],
   "chunks": [
     {
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 11672,
+      "size": 1413,
       "sizes": {
-        "javascript": 11603,
-        "css/mini-extract": 69
-      },
-      "names": [
-        "About"
-      ],
-      "idHints": [],
-      "runtime": [
-        "runtime~main"
-      ],
-      "files": [
-        "About.css",
-        "About.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "1beb349f539376b92022",
-      "childrenByOrder": {},
-      "id": "About",
-      "siblings": [
-        "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e"
-      ],
-      "parents": [
-        "main",
-        "runtime~main"
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": false,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 8723,
-      "sizes": {
-        "javascript": 8654,
-        "css/mini-extract": 69
-      },
-      "names": [
-        "Account"
-      ],
-      "idHints": [],
-      "runtime": [
-        "runtime~main"
-      ],
-      "files": [
-        "Account.css",
-        "Account.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "2d0c8437cbdc15f9e932",
-      "childrenByOrder": {},
-      "id": "Account",
-      "siblings": [],
-      "parents": [
-        "main",
-        "runtime~main"
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": false,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 15544,
-      "sizes": {
-        "javascript": 15475,
-        "css/mini-extract": 69
-      },
-      "names": [
-        "Apollo"
-      ],
-      "idHints": [],
-      "runtime": [
-        "runtime~main"
-      ],
-      "files": [
-        "Apollo.css",
-        "Apollo.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "65d5fbfeb0c6992829b4",
-      "childrenByOrder": {},
-      "id": "Apollo",
-      "siblings": [
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c"
-      ],
-      "parents": [
-        "main",
-        "runtime~main"
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": false,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 23380,
-      "sizes": {
-        "javascript": 23311,
-        "css/mini-extract": 69
-      },
-      "names": [
-        "Article"
-      ],
-      "idHints": [],
-      "runtime": [
-        "runtime~main"
-      ],
-      "files": [
-        "Article.css",
-        "Article.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "5f82e62ce88b5956579f",
-      "childrenByOrder": {},
-      "id": "Article",
-      "siblings": [
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0",
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c"
-      ],
-      "parents": [
-        "main",
-        "runtime~main"
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": false,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 15762,
-      "sizes": {
-        "javascript": 15693,
-        "css/mini-extract": 69
-      },
-      "names": [
-        "Blog"
-      ],
-      "idHints": [],
-      "runtime": [
-        "runtime~main"
-      ],
-      "files": [
-        "Blog.css",
-        "Blog.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "6e47d494efef85366550",
-      "childrenByOrder": {},
-      "id": "Blog",
-      "siblings": [
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0",
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c"
-      ],
-      "parents": [
-        "main",
-        "runtime~main"
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": false,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 16360,
-      "sizes": {
-        "javascript": 16192,
-        "css/mini-extract": 168
-      },
-      "names": [
-        "Home"
-      ],
-      "idHints": [],
-      "runtime": [
-        "runtime~main"
-      ],
-      "files": [
-        "Home.css",
-        "Home.js"
-      ],
-      "auxiliaryFiles": [
-        "img/qwe.jpg"
-      ],
-      "hash": "e249cb1a84d1e038f31f",
-      "childrenByOrder": {},
-      "id": "Home",
-      "siblings": [],
-      "parents": [
-        "main",
-        "runtime~main"
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": false,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 3128,
-      "sizes": {
-        "javascript": 3128
-      },
-      "names": [
-        "NotFound"
-      ],
-      "idHints": [],
-      "runtime": [
-        "runtime~main"
-      ],
-      "files": [
-        "NotFound.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "417f38c1ecf3d2c77c97",
-      "childrenByOrder": {},
-      "id": "NotFound",
-      "siblings": [],
-      "parents": [
-        "main",
-        "runtime~main"
-      ],
-      "children": [],
-      "modules": [],
-      "origins": []
-    },
-    {
-      "rendered": false,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 9527,
-      "sizes": {
-        "javascript": 9458,
-        "css/mini-extract": 69
+        "javascript": 1369,
+        "css/mini-extract": 44
       },
       "names": [
         "Pwa"
@@ -934,71 +756,71 @@
         "runtime~main"
       ],
       "files": [
-        "Pwa.css",
-        "Pwa.js"
+        "67.fa7d6c00.css",
+        "67.bee257c7.js"
       ],
       "auxiliaryFiles": [
         "img/pwa.jpg",
         "img/pwa2.jpg",
         "img/pwa3.jpg"
       ],
-      "hash": "d832b6440ddc7f2425e2",
+      "hash": "7d218af08003f79e26ef",
       "childrenByOrder": {},
-      "id": "Pwa",
+      "id": 67,
       "siblings": [],
       "parents": [
-        "main",
-        "runtime~main"
+        179,
+        303,
+        468
       ],
       "children": [],
       "modules": [],
       "origins": []
     },
     {
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 25442,
+      "size": 31487,
       "sizes": {
-        "javascript": 25373,
-        "css/mini-extract": 69
+        "javascript": 31443,
+        "css/mini-extract": 44
       },
       "names": [
-        "Ui"
+        "About"
       ],
       "idHints": [],
       "runtime": [
         "runtime~main"
       ],
       "files": [
-        "Ui.css",
-        "Ui.js"
+        "74.fa7d6c00.css",
+        "74.52268c31.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "623081913876559dab3f",
+      "hash": "92c1eadc06b81337c09c",
       "childrenByOrder": {},
-      "id": "Ui",
-      "siblings": [
-        "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e"
-      ],
+      "id": 74,
+      "siblings": [],
       "parents": [
-        "main",
-        "runtime~main"
+        179,
+        303,
+        468
       ],
       "children": [],
       "modules": [],
       "origins": []
     },
     {
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 2914608,
+      "size": 104839,
       "sizes": {
-        "javascript": 2844066,
-        "css/mini-extract": 70542
+        "javascript": 49586,
+        "css/mini-extract": 55253
       },
       "names": [
         "main"
@@ -1008,43 +830,112 @@
         "runtime~main"
       ],
       "files": [
-        "main.css",
-        "main.js"
+        "main.184e8e1c.css",
+        "main.108f6342.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "2e0835723eac7e38d506",
+      "hash": "0c67730020c87f0664f0",
       "childrenByOrder": {},
-      "id": "main",
+      "id": 179,
       "siblings": [
-        "runtime~main"
+        303,
+        468
       ],
       "parents": [],
       "children": [
-        "About",
-        "Account",
-        "Apollo",
-        "Article",
-        "Blog",
-        "Home",
-        "NotFound",
-        "Pwa",
-        "Ui",
-        "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e",
-        "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e",
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0",
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c"
+        67,
+        74,
+        187,
+        268,
+        312,
+        337,
+        397,
+        425,
+        572,
+        918,
+        951
       ],
       "modules": [],
       "origins": []
     },
     {
-      "rendered": false,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 494,
+      "sizes": {
+        "javascript": 494
+      },
+      "names": [
+        "NotFound"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~main"
+      ],
+      "files": [
+        "187.6442a925.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "09142760795f94044438",
+      "childrenByOrder": {},
+      "id": 187,
+      "siblings": [],
+      "parents": [
+        179,
+        303,
+        468
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7818,
+      "sizes": {
+        "javascript": 7725,
+        "css/mini-extract": 93
+      },
+      "names": [
+        "Home"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~main"
+      ],
+      "files": [
+        "268.c7b90dca.css",
+        "268.8a229181.js"
+      ],
+      "auxiliaryFiles": [
+        "img/qwe.jpg"
+      ],
+      "hash": "d89e40827fc00509341c",
+      "childrenByOrder": {},
+      "id": 268,
+      "siblings": [],
+      "parents": [
+        179,
+        303,
+        468
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 35242,
+      "size": 10963,
       "sizes": {
-        "runtime": 35242
+        "runtime": 10963
       },
       "names": [
         "runtime~main"
@@ -1054,36 +945,70 @@
         "runtime~main"
       ],
       "files": [
-        "runtime~main.js"
+        "runtime~main.9455c6a1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "e46cc8ff4c9ea8521c67",
+      "hash": "ba9fb233c6f26b827f95",
       "childrenByOrder": {},
-      "id": "runtime~main",
+      "id": 303,
       "siblings": [
-        "main"
+        179,
+        468
       ],
       "parents": [],
       "children": [
-        "About",
-        "Account",
-        "Apollo",
-        "Article",
-        "Blog",
-        "Home",
-        "NotFound",
-        "Pwa",
-        "Ui",
-        "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e",
-        "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e",
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0",
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c"
+        67,
+        74,
+        187,
+        268,
+        312,
+        337,
+        397,
+        425,
+        572,
+        918,
+        951
       ],
       "modules": [],
       "origins": []
     },
     {
-      "rendered": false,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 20973,
+      "sizes": {
+        "javascript": 20929,
+        "css/mini-extract": 44
+      },
+      "names": [
+        "Apollo"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~main"
+      ],
+      "files": [
+        "312.fa7d6c00.css",
+        "312.65f0142c.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "9172ed5374fa56df16ff",
+      "childrenByOrder": {},
+      "id": 312,
+      "siblings": [],
+      "parents": [
+        179,
+        303,
+        468
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
       "initial": false,
       "entry": false,
       "recorded": false,
@@ -1100,32 +1025,107 @@
         "runtime~main"
       ],
       "files": [
-        "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e.js"
+        "337.25ff8b66.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "00f0d4c33a0fce8dfa5c",
+      "hash": "d92eddd2caf931739107",
       "childrenByOrder": {},
-      "id": "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e",
+      "id": 337,
       "siblings": [
+        425
+      ],
+      "parents": [
+        179,
+        303,
+        468
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 8648,
+      "sizes": {
+        "javascript": 8604,
+        "css/mini-extract": 44
+      },
+      "names": [
+        "Blog"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~main"
+      ],
+      "files": [
+        "397.fa7d6c00.css",
+        "397.5e73e70a.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "792a4c9bc3df0115d848",
+      "childrenByOrder": {},
+      "id": 397,
+      "siblings": [
+        572
+      ],
+      "parents": [
+        179,
+        303,
+        468
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 11432,
+      "sizes": {
+        "javascript": 11388,
+        "css/mini-extract": 44
+      },
+      "names": [
         "Ui"
       ],
-      "parents": [
-        "main",
+      "idHints": [],
+      "runtime": [
         "runtime~main"
+      ],
+      "files": [
+        "425.fa7d6c00.css",
+        "425.db64a32c.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "db8725942ec917310445",
+      "childrenByOrder": {},
+      "id": 425,
+      "siblings": [
+        337
+      ],
+      "parents": [
+        179,
+        303,
+        468
       ],
       "children": [],
       "modules": [],
       "origins": []
     },
     {
-      "rendered": false,
-      "initial": false,
+      "rendered": true,
+      "initial": true,
       "entry": false,
       "recorded": false,
       "reason": "split chunk (cache group: defaultVendors)",
-      "size": 28032,
+      "size": 1683623,
       "sizes": {
-        "javascript": 28032
+        "javascript": 1683623
       },
       "names": [],
       "idHints": [
@@ -1135,32 +1135,42 @@
         "runtime~main"
       ],
       "files": [
-        "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e.js"
+        "468.8a74fec8.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "9e8af8a524c5134ababc",
+      "hash": "016426a6429053a0ca44",
       "childrenByOrder": {},
-      "id": "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e",
+      "id": 468,
       "siblings": [
-        "About"
+        179,
+        303
       ],
-      "parents": [
-        "main",
-        "runtime~main"
+      "parents": [],
+      "children": [
+        67,
+        74,
+        187,
+        268,
+        312,
+        337,
+        397,
+        425,
+        572,
+        918,
+        951
       ],
-      "children": [],
       "modules": [],
       "origins": []
     },
     {
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "recorded": false,
       "reason": "split chunk (cache group: defaultVendors)",
-      "size": 77382,
+      "size": 94542,
       "sizes": {
-        "javascript": 77382
+        "javascript": 94542
       },
       "names": [],
       "idHints": [
@@ -1170,58 +1180,92 @@
         "runtime~main"
       ],
       "files": [
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0.js"
+        "572.077253ba.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "8f50eadf4ad36340da1b",
+      "hash": "24bd7f18589bc6651d01",
       "childrenByOrder": {},
-      "id": "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0",
+      "id": 572,
       "siblings": [
-        "Article",
-        "Blog",
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c"
+        397,
+        951
       ],
       "parents": [
-        "main",
-        "runtime~main"
+        179,
+        303,
+        468
       ],
       "children": [],
       "modules": [],
       "origins": []
     },
     {
-      "rendered": false,
+      "rendered": true,
       "initial": false,
       "entry": false,
       "recorded": false,
-      "reason": "split chunk (cache group: defaultVendors)",
-      "size": 17099,
+      "size": 601,
       "sizes": {
-        "javascript": 17099
+        "javascript": 557,
+        "css/mini-extract": 44
       },
-      "names": [],
-      "idHints": [
-        "vendors"
+      "names": [
+        "Account"
       ],
+      "idHints": [],
       "runtime": [
         "runtime~main"
       ],
       "files": [
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c.js"
+        "918.fa7d6c00.css",
+        "918.aac5afa7.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0518bcef8b913cbd86e5",
+      "hash": "62542513d53d79d9e71d",
       "childrenByOrder": {},
-      "id": "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c",
+      "id": 918,
+      "siblings": [],
+      "parents": [
+        179,
+        303,
+        468
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 13387,
+      "sizes": {
+        "javascript": 13343,
+        "css/mini-extract": 44
+      },
+      "names": [
+        "Article"
+      ],
+      "idHints": [],
+      "runtime": [
+        "runtime~main"
+      ],
+      "files": [
+        "951.fa7d6c00.css",
+        "951.742b01e2.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "ef2f0c32ecbbf77dbc7c",
+      "childrenByOrder": {},
+      "id": 951,
       "siblings": [
-        "Apollo",
-        "Article",
-        "Blog",
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0"
+        572
       ],
       "parents": [
-        "main",
-        "runtime~main"
+        179,
+        303,
+        468
       ],
       "children": [],
       "modules": [],
@@ -1232,18 +1276,22 @@
     "main": {
       "name": "main",
       "chunks": [
-        "runtime~main",
-        "main"
+        303,
+        468,
+        179
       ],
       "assets": [
         {
-          "name": "runtime~main.js"
+          "name": "runtime~main.9455c6a1.js"
         },
         {
-          "name": "main.css"
+          "name": "468.8a74fec8.js"
         },
         {
-          "name": "main.js"
+          "name": "main.184e8e1c.css"
+        },
+        {
+          "name": "main.108f6342.js"
         }
       ],
       "filteredAssets": 0,
@@ -1260,18 +1308,22 @@
     "main": {
       "name": "main",
       "chunks": [
-        "runtime~main",
-        "main"
+        303,
+        468,
+        179
       ],
       "assets": [
         {
-          "name": "runtime~main.js"
+          "name": "runtime~main.9455c6a1.js"
         },
         {
-          "name": "main.css"
+          "name": "468.8a74fec8.js"
         },
         {
-          "name": "main.js"
+          "name": "main.184e8e1c.css"
+        },
+        {
+          "name": "main.108f6342.js"
         }
       ],
       "filteredAssets": 0,
@@ -1286,14 +1338,14 @@
     "Home": {
       "name": "Home",
       "chunks": [
-        "Home"
+        268
       ],
       "assets": [
         {
-          "name": "Home.css"
+          "name": "268.c7b90dca.css"
         },
         {
-          "name": "Home.js"
+          "name": "268.8a229181.js"
         }
       ],
       "filteredAssets": 0,
@@ -1312,22 +1364,18 @@
     "Blog": {
       "name": "Blog",
       "chunks": [
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c",
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0",
-        "Blog"
+        572,
+        397
       ],
       "assets": [
         {
-          "name": "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c.js"
+          "name": "572.077253ba.js"
         },
         {
-          "name": "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0.js"
+          "name": "397.fa7d6c00.css"
         },
         {
-          "name": "Blog.css"
-        },
-        {
-          "name": "Blog.js"
+          "name": "397.5e73e70a.js"
         }
       ],
       "filteredAssets": 0,
@@ -1342,18 +1390,14 @@
     "About": {
       "name": "About",
       "chunks": [
-        "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e",
-        "About"
+        74
       ],
       "assets": [
         {
-          "name": "vendors-node_modules_material-ui_core_esm_Avatar_Avatar_js-node_modules_material-ui_core_esm_-6f658e.js"
+          "name": "74.fa7d6c00.css"
         },
         {
-          "name": "About.css"
-        },
-        {
-          "name": "About.js"
+          "name": "74.52268c31.js"
         }
       ],
       "filteredAssets": 0,
@@ -1368,14 +1412,14 @@
     "Account": {
       "name": "Account",
       "chunks": [
-        "Account"
+        918
       ],
       "assets": [
         {
-          "name": "Account.css"
+          "name": "918.fa7d6c00.css"
         },
         {
-          "name": "Account.js"
+          "name": "918.aac5afa7.js"
         }
       ],
       "filteredAssets": 0,
@@ -1390,22 +1434,18 @@
     "Article": {
       "name": "Article",
       "chunks": [
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c",
-        "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0",
-        "Article"
+        572,
+        951
       ],
       "assets": [
         {
-          "name": "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c.js"
+          "name": "572.077253ba.js"
         },
         {
-          "name": "vendors-node_modules_material-ui_core_esm_CardActionArea_CardActionArea_js-node_modules_mater-a73ac0.js"
+          "name": "951.fa7d6c00.css"
         },
         {
-          "name": "Article.css"
-        },
-        {
-          "name": "Article.js"
+          "name": "951.742b01e2.js"
         }
       ],
       "filteredAssets": 0,
@@ -1420,11 +1460,11 @@
     "NotFound": {
       "name": "NotFound",
       "chunks": [
-        "NotFound"
+        187
       ],
       "assets": [
         {
-          "name": "NotFound.js"
+          "name": "187.6442a925.js"
         }
       ],
       "filteredAssets": 0,
@@ -1439,18 +1479,18 @@
     "Ui": {
       "name": "Ui",
       "chunks": [
-        "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e",
-        "Ui"
+        337,
+        425
       ],
       "assets": [
         {
-          "name": "vendors-node_modules_babel_runtime_helpers_extends_js-node_modules_material-ui_core_esm_Butto-feab4e.js"
+          "name": "337.25ff8b66.js"
         },
         {
-          "name": "Ui.css"
+          "name": "425.fa7d6c00.css"
         },
         {
-          "name": "Ui.js"
+          "name": "425.db64a32c.js"
         }
       ],
       "filteredAssets": 0,
@@ -1465,14 +1505,14 @@
     "Pwa": {
       "name": "Pwa",
       "chunks": [
-        "Pwa"
+        67
       ],
       "assets": [
         {
-          "name": "Pwa.css"
+          "name": "67.fa7d6c00.css"
         },
         {
-          "name": "Pwa.js"
+          "name": "67.bee257c7.js"
         }
       ],
       "filteredAssets": 0,
@@ -1497,18 +1537,14 @@
     "Apollo": {
       "name": "Apollo",
       "chunks": [
-        "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c",
-        "Apollo"
+        312
       ],
       "assets": [
         {
-          "name": "vendors-node_modules_material-ui_core_esm_CardContent_CardContent_js-node_modules_material-ui-72233c.js"
+          "name": "312.fa7d6c00.css"
         },
         {
-          "name": "Apollo.css"
-        },
-        {
-          "name": "Apollo.js"
+          "name": "312.65f0142c.js"
         }
       ],
       "filteredAssets": 0,
@@ -1525,6 +1561,2371 @@
   "errorsCount": 0,
   "warnings": [],
   "warningsCount": 0,
-  "children": [],
+  "children": [
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+      "hash": "e2de64b582f080cc0236",
+      "version": "5.19.0",
+      "builtAt": 1612295786789,
+      "publicPath": "/assets/",
+      "outputPath": "C:\\web\\sergyus\\public\\assets",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 58098,
+          "sizes": {
+            "javascript": 57101,
+            "runtime": 997
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "522b0764d84de60281e3",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 55496,
+              "sizes": {
+                "javascript": 55496
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+              "nameForCondition": "C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 531,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+                  "id": 531
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 352,
+              "issuerId": 531,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-95",
+                  "moduleId": 531,
+                  "resolvedModuleId": 531
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/assets/styles/index.scss",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57",
+                  "moduleId": 531,
+                  "resolvedModuleId": 531
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 352,
+                  "resolvedModuleId": 352
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+      "hash": "ce0f64d1fc609a573632",
+      "version": "5.19.0",
+      "builtAt": 1612295786309,
+      "publicPath": "/assets/",
+      "outputPath": "C:\\web\\sergyus\\public\\assets",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 2972,
+          "sizes": {
+            "javascript": 1975,
+            "runtime": 997
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "81eeb9ef4db606cda19c",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 370,
+              "sizes": {
+                "javascript": 370
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+              "nameForCondition": "C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 213,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+                  "id": 213
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 352,
+              "issuerId": 213,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-98",
+                  "moduleId": 213,
+                  "resolvedModuleId": 213
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Header/components/indicator.scss",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57",
+                  "moduleId": 213,
+                  "resolvedModuleId": 213
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 352,
+                  "resolvedModuleId": 352
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+      "hash": "e6f934fc2de3f072228c",
+      "version": "5.19.0",
+      "builtAt": 1612295786247,
+      "publicPath": "/assets/",
+      "outputPath": "C:\\web\\sergyus\\public\\assets",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 2990,
+          "sizes": {
+            "javascript": 1993,
+            "runtime": 997
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "ea8181f21608ca4a83be",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 388,
+              "sizes": {
+                "javascript": 388
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+              "nameForCondition": "C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 982,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+                  "id": 982
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 352,
+              "issuerId": 982,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-95",
+                  "moduleId": 982,
+                  "resolvedModuleId": 982
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Loading/styles.module.scss",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57",
+                  "moduleId": 982,
+                  "resolvedModuleId": 982
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 352,
+                  "resolvedModuleId": 352
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+      "hash": "82c8319aa08029329a9b",
+      "version": "5.19.0",
+      "builtAt": 1612295786369,
+      "publicPath": "/assets/",
+      "outputPath": "C:\\web\\sergyus\\public\\assets",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 2955,
+          "sizes": {
+            "javascript": 1958,
+            "runtime": 997
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "e6848f0bd666fcc24ae3",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 353,
+              "sizes": {
+                "javascript": 353
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+              "nameForCondition": "C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 362,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+                  "id": 362
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 352,
+              "issuerId": 362,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-95",
+                  "moduleId": 362,
+                  "resolvedModuleId": 362
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Navigation/navigation.scss",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57",
+                  "moduleId": 362,
+                  "resolvedModuleId": 362
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 352,
+                  "resolvedModuleId": 352
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+      "hash": "67fcb3452a14ce96daf4",
+      "version": "5.19.0",
+      "builtAt": 1612295786374,
+      "publicPath": "/assets/",
+      "outputPath": "C:\\web\\sergyus\\public\\assets",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 3008,
+          "sizes": {
+            "javascript": 2011,
+            "runtime": 997
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "5de8a4b65b243b94c454",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 406,
+              "sizes": {
+                "javascript": 406
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+              "nameForCondition": "C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 365,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+                  "id": 365
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 352,
+              "issuerId": 365,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-95",
+                  "moduleId": 365,
+                  "resolvedModuleId": 365
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/components/Title/styles.module.scss",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57",
+                  "moduleId": 365,
+                  "resolvedModuleId": 365
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 352,
+                  "resolvedModuleId": 352
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    },
+    {
+      "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+      "hash": "5bc290926975581d272d",
+      "version": "5.19.0",
+      "builtAt": 1612295786262,
+      "publicPath": "/assets/",
+      "outputPath": "C:\\web\\sergyus\\public\\assets",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 3043,
+          "sizes": {
+            "javascript": 2046,
+            "runtime": 997
+          },
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "idHints": [],
+          "runtime": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "04f6f7fe304803c0c3fe",
+          "childrenByOrder": {},
+          "id": 323,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 441,
+              "sizes": {
+                "javascript": 441
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+              "nameForCondition": "C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 781,
+              "issuerId": null,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+                  "loc": "mini-css-extract-plugin",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+              "issuerPath": [
+                {
+                  "identifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+                  "name": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+                  "id": 781
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 352,
+              "issuerId": 781,
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-95",
+                  "moduleId": 781,
+                  "resolvedModuleId": 781
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/pages/Home/home.module.scss",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57",
+                  "moduleId": 781,
+                  "resolvedModuleId": 781
+                },
+                {
+                  "moduleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "C:\\web\\sergyus\\node_modules\\source-map-loader\\dist\\cjs.js!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\runtime\\api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 352,
+                  "resolvedModuleId": 352
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 302,
+              "sizes": {
+                "runtime": 302
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 313,
+              "sizes": {
+                "runtime": 313
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 103,
+              "sizes": {
+                "runtime": 103
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 279,
+              "sizes": {
+                "runtime": 279
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                323
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss"
+            }
+          ]
+        }
+      ],
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "name": "mini-css-extract-plugin",
+          "chunks": [
+            323
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ],
   "generator": "loadable-components"
 }
