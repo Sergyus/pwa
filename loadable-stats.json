@@ -1,12 +1,12 @@
 {
-  "hash": "bbacef3eab8a1f475f3d",
+  "hash": "a00c9058a51332464d8d",
   "version": "5.19.0",
   "publicPath": "/assets/",
   "outputPath": "C:\\web\\sergyus\\public\\assets",
   "assetsByChunkName": {
     "main": [
       "main.184e8e1c.css",
-      "main.108f6342.js"
+      "main.89e0bc40.js"
     ],
     "runtime~main": [
       "runtime~main.9455c6a1.js"
@@ -234,14 +234,14 @@
     },
     {
       "type": "asset",
-      "name": "main.108f6342.js",
-      "size": 20686,
+      "name": "main.89e0bc40.js",
+      "size": 20692,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "108f6342",
+        "contenthash": "89e0bc40",
         "javascriptModule": false,
         "minimized": true
       },
@@ -817,9 +817,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 104839,
+      "size": 104785,
       "sizes": {
-        "javascript": 49586,
+        "javascript": 49532,
         "css/mini-extract": 55253
       },
       "names": [
@@ -831,10 +831,10 @@
       ],
       "files": [
         "main.184e8e1c.css",
-        "main.108f6342.js"
+        "main.89e0bc40.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "0c67730020c87f0664f0",
+      "hash": "80a70bb5957b2a38d015",
       "childrenByOrder": {},
       "id": 179,
       "siblings": [
@@ -1291,7 +1291,7 @@
           "name": "main.184e8e1c.css"
         },
         {
-          "name": "main.108f6342.js"
+          "name": "main.89e0bc40.js"
         }
       ],
       "filteredAssets": 0,
@@ -1323,7 +1323,7 @@
           "name": "main.184e8e1c.css"
         },
         {
-          "name": "main.108f6342.js"
+          "name": "main.89e0bc40.js"
         }
       ],
       "filteredAssets": 0,
@@ -1566,7 +1566,7 @@
       "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\assets\\styles\\index.scss",
       "hash": "e2de64b582f080cc0236",
       "version": "5.19.0",
-      "builtAt": 1612295786789,
+      "builtAt": 1612296340866,
       "publicPath": "/assets/",
       "outputPath": "C:\\web\\sergyus\\public\\assets",
       "assetsByChunkName": {},
@@ -1960,7 +1960,7 @@
       "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Header\\components\\indicator.scss",
       "hash": "ce0f64d1fc609a573632",
       "version": "5.19.0",
-      "builtAt": 1612295786309,
+      "builtAt": 1612296340385,
       "publicPath": "/assets/",
       "outputPath": "C:\\web\\sergyus\\public\\assets",
       "assetsByChunkName": {},
@@ -2354,7 +2354,7 @@
       "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Loading\\styles.module.scss",
       "hash": "e6f934fc2de3f072228c",
       "version": "5.19.0",
-      "builtAt": 1612295786247,
+      "builtAt": 1612296340294,
       "publicPath": "/assets/",
       "outputPath": "C:\\web\\sergyus\\public\\assets",
       "assetsByChunkName": {},
@@ -2748,7 +2748,7 @@
       "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Navigation\\navigation.scss",
       "hash": "82c8319aa08029329a9b",
       "version": "5.19.0",
-      "builtAt": 1612295786369,
+      "builtAt": 1612296340464,
       "publicPath": "/assets/",
       "outputPath": "C:\\web\\sergyus\\public\\assets",
       "assetsByChunkName": {},
@@ -3142,7 +3142,7 @@
       "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\components\\Title\\styles.module.scss",
       "hash": "67fcb3452a14ce96daf4",
       "version": "5.19.0",
-      "builtAt": 1612295786374,
+      "builtAt": 1612296340473,
       "publicPath": "/assets/",
       "outputPath": "C:\\web\\sergyus\\public\\assets",
       "assetsByChunkName": {},
@@ -3536,7 +3536,7 @@
       "name": "mini-css-extract-plugin C:\\web\\sergyus\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[1]!C:\\web\\sergyus\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[2]!C:\\web\\sergyus\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[3].use[3]!C:\\web\\sergyus\\src\\pages\\Home\\home.module.scss",
       "hash": "5bc290926975581d272d",
       "version": "5.19.0",
-      "builtAt": 1612295786262,
+      "builtAt": 1612296340500,
       "publicPath": "/assets/",
       "outputPath": "C:\\web\\sergyus\\public\\assets",
       "assetsByChunkName": {},
