@@ -2,7 +2,7 @@
 /* eslint-disable no-restricted-globals */
 import { clientsClaim } from 'workbox-core';
 import { ExpirationPlugin } from 'workbox-expiration';
-import { precacheAndRoute, createHandlerBoundToURL } from 'workbox-precaching';
+import { precacheAndRoute } from 'workbox-precaching';
 import { registerRoute } from 'workbox-routing';
 import { CacheFirst, StaleWhileRevalidate } from 'workbox-strategies';
 import { CacheableResponsePlugin } from 'workbox-cacheable-response';
@@ -13,19 +13,19 @@ clientsClaim();
 
 precacheAndRoute(self.__WB_MANIFEST);
 
-const fileExtensionRegexp = new RegExp('/[^/?]+\\.[^/]+$');
-registerRoute(({ request, url }: { request: Request; url: URL }) => {
-  if (request.mode !== 'navigate') {
-    return false;
-  }
-  if (url.pathname.startsWith('/_')) {
-    return false;
-  }
-  if (url.pathname.match(fileExtensionRegexp)) {
-    return false;
-  }
-  return true;
-}, createHandlerBoundToURL(process.env.PUBLIC_URL + '/index.html'));
+// const fileExtensionRegexp = new RegExp('/[^/?]+\\.[^/]+$');
+// registerRoute(({ request, url }: { request: Request; url: URL }) => {
+//   if (request.mode !== 'navigate') {
+//     return false;
+//   }
+//   if (url.pathname.startsWith('/_')) {
+//     return false;
+//   }
+//   if (url.pathname.match(fileExtensionRegexp)) {
+//     return false;
+//   }
+//   return true;
+// }, createHandlerBoundToURL(process.env.PUBLIC_URL + '/index.html'));
 
 registerRoute(
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -45,8 +45,6 @@ self.addEventListener('message', (event) => {
 });
 
 registerRoute(
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
   ({ url }) => url.origin === 'https://jsonplaceholder.typicode.com',
   // && url.pathname.startsWith('/posts/')
   new CacheFirst({

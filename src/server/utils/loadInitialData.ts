@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { matchRoutes } from 'react-router-config';
 import { IRoute } from '@router/typings';
 import { config } from '@router/config';
+import { rootStore } from '@store/registration';
 
 type FnType = (req: Request, res: Response) => Promise<unknown> | void;
 
@@ -17,16 +18,13 @@ export const loadInitialData: FnType = (req, res) => {
       return Promise.all(
         route.fetchData({
           params: match.params,
-          getState: {}, //store.getState,
+          getState: rootStore,
           req,
           res,
         }),
-        //.map((item: Action) => store.dispatch(item)),
       );
     }
-
     return Promise.resolve(null);
   });
-
   return Promise.all(promises);
 };

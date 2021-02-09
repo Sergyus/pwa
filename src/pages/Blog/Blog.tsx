@@ -1,24 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import Title from '@components/Title';
 import MediaCard from '@components/UI/MediaCard';
-import { Grid } from '@material-ui/core';
+import { Grid, NoSsr } from '@material-ui/core';
 import Skeleton from 'react-loading-skeleton';
 import PostService from '@modules/Post';
 import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 import { useTranslation } from 'react-i18next';
+import { observer } from 'mobx-react';
 
-export default function Blog(): JSX.Element {
-  const [open, setOpen] = useState(true);
+function Blog(): JSX.Element {
+  // const [open, setOpen] = useState(true);
   const [posts, setPosts] = useState<PostType[]>([]);
   const [skeletons] = useState(Array.from(Array(3).keys()));
   const { t } = useTranslation(['menu']);
 
   useEffect(() => {
-    PostService.getPosts(1, 4).then((posts) => {
-      setPosts(posts);
-      setOpen(false);
-    });
+    PostService.getPosts();
   }, []);
 
   function addNew() {
@@ -47,14 +45,17 @@ export default function Blog(): JSX.Element {
       {/*<FormDialog />*/}
 
       <Grid container spacing={1}>
-        {open &&
+        {!PostService.posts.length &&
+          __CLIENT__ &&
           skeletons.map((item) => (
             <Grid key={item} item xs={12} sm={6} md={4}>
-              <Skeleton height={180} />
+              <NoSsr>
+                <Skeleton height={180} />
+              </NoSsr>
             </Grid>
           ))}
 
-        {posts.map((item) => (
+        {PostService.posts.map((item) => (
           <Grid key={item.id} item xs={12} sm={6} md={4}>
             <MediaCard {...item} remove={remove} />
           </Grid>
@@ -63,3 +64,5 @@ export default function Blog(): JSX.Element {
     </>
   );
 }
+
+export default observer(Blog);

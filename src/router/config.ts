@@ -1,19 +1,18 @@
 import { RouterConfigType } from './typings';
 import PostService from '@modules/Post';
-import { Redirect } from 'react-router-dom';
-import React from 'react';
 import App from '../app';
 import {
-  Home,
-  Blog,
   About,
-  Article,
-  Ui,
-  NotFound,
   Account,
-  Pwa,
   Apollo,
+  Article,
+  Blog,
+  Home,
+  NotFound,
+  Pwa,
+  Ui,
 } from '@pages/index';
+import { UsersService } from '@modules/User';
 
 /**
  * Router Config
@@ -64,6 +63,9 @@ export const config: RouterConfigType[] = [
         path: '/apollo',
         name: 'Apollo',
         component: Apollo,
+        fetchData: () => [
+          UsersService.getUsers({ params: { page: 1, limit: 9 } }),
+        ],
         inMenu: true,
       },
       {
@@ -77,15 +79,9 @@ export const config: RouterConfigType[] = [
         component: Account,
       },
       {
-        path: '/404',
-        name: '404',
-        component: NotFound,
-      },
-      {
         path: '*',
         name: '404',
-        // eslint-disable-next-line react/display-name
-        render: (): JSX.Element => <Redirect to="/404" />,
+        component: NotFound,
       },
     ],
   },

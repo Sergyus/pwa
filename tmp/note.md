@@ -41,6 +41,7 @@
 - https://github.com/on3dd/mern-ssr-blog/blob/master/src/client/app.tsx
 - https://github.com/alexnm/react-ssr/blob/master/src/app.tsx
 - https://github.com/AlexSergey/issr/tree/master/examples/16-mobx/src
+- https://medium.com/@valeria.viana.gusmao/developing-react-server-side-rendered-progressive-web-application-the-right-way-b09e0fdd345a
 
 ### EXPRESS
 
@@ -49,3 +50,7 @@
 - https://github.com/ScorpionH/react-ssr-blog/blob/master/src/index/middlewares/react-ssr.tsx
 - https://github.com/on3dd/mern-ssr-blog
 - https://github.com/lauterry/perfect-react-index/tree/master/src/index
+
+### SW Workbox
+
+- https://dsebastien.medium.com/building-a-service-worker-with-workbox-5-typescript-webpack-and-angular-5015ba76340b

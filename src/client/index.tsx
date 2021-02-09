@@ -1,4 +1,4 @@
-import * as serviceWorker from '../serviceWorkerRegistration';
+import * as serviceWorker from '../sw/registration';
 import React, { useEffect } from 'react';
 import i18n from 'i18next';
 import Router from '@router/Router';

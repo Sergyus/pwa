@@ -16,7 +16,7 @@ type Config = {
 export function register(config?: Config): void {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     const publicUrl = new URL(
-      process.env.PUBLIC_URL as string,
+      process.env.PUBLIC_URL || '', // FIXME: PUBLIC_URL
       window.location.href,
     );
     if (publicUrl.origin !== window.location.origin) {
@@ -24,7 +24,7 @@ export function register(config?: Config): void {
     }
 
     window.addEventListener('load', () => {
-      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
+      const swUrl = `${process.env.PUBLIC_URL || ''}/service-worker.js`; // FIXME: PUBLIC_URL
 
       if (isLocalhost) {
         checkValidServiceWorker(swUrl, config);

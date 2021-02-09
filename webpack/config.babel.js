@@ -2,7 +2,6 @@ import path from 'path';
 import webpack from 'webpack';
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
 import { WebpackManifestPlugin } from 'webpack-manifest-plugin';
-import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import TerserJSPlugin from 'terser-webpack-plugin';
 import OptimizeCSSAssetsPlugin from 'optimize-css-assets-webpack-plugin';
@@ -11,6 +10,7 @@ import CompressionPlugin from 'compression-webpack-plugin';
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
 import LoadablePlugin from '@loadable/webpack-plugin';
 import FriendlyErrorsWebpackPlugin from '@soda/friendly-errors-webpack-plugin';
+import { InjectManifest } from 'workbox-webpack-plugin';
 
 const isDev = process.env.NODE_ENV !== 'production';
 
@@ -58,6 +58,7 @@ module.exports = {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.css', '.scss', '.json'],
     alias: {
       '@api': path.resolve(__dirname, '../src/api'),
+      '@store': path.resolve(__dirname, '../src/store'),
       '@pages': path.resolve(__dirname, '../src/pages'),
       '@assets': path.resolve(__dirname, '../src/assets'),
       '@modules': path.resolve(__dirname, '../src/modules'),
@@ -68,7 +69,7 @@ module.exports = {
     },
   },
   optimization: {
-    runtimeChunk: true,
+    //  runtimeChunk: true,
     minimizer: [new TerserJSPlugin(), new OptimizeCSSAssetsPlugin()],
     splitChunks: {
       chunks: isDev ? 'async' : 'all',
@@ -120,12 +121,19 @@ module.exports = {
     ],
   },
   plugins: [
+    !isDev &&
+      new InjectManifest({
+        mode: 'development', //'development',
+        swSrc: './src/sw/service-worker.ts',
+        swDest: '../service-worker.js',
+        include: [/\.html$/, /\.js$/, /\.css$/, /\.woff2$/, /\.jpg$/, /\.png$/],
+        exclude: [/\.map$/, /manifest$/, /service-worker\.js$/, /sw\.js$/],
+      }),
     new WebpackManifestPlugin({
       fileName: path.resolve(process.cwd(), 'public/webpack-assets.json'),
       filter: (file) => file.isInitial,
     }),
     new FriendlyErrorsWebpackPlugin(),
-    new CleanWebpackPlugin(),
     new webpack.ProgressPlugin(),
     new LoadablePlugin({
       writeToDisk: true,
@@ -146,7 +154,7 @@ module.exports = {
     isDev &&
       new ReactRefreshWebpackPlugin({ overlay: { sockIntegration: 'whm' } }),
     isDev && new ForkTsCheckerWebpackPlugin(),
-    // !isDev && new webpack.HashedModuleIdsPlugin(),
+    !isDev && new webpack.ids.HashedModuleIdsPlugin(),
     !isDev &&
       new CompressionPlugin({
         test: /\.(js|css|html)$/,

@@ -1,33 +1,33 @@
 import Title from '@components/Title';
-import React, { useEffect, useState } from 'react';
-import { UserService } from '@modules/User';
-import { User } from '@api/generated/types';
+import React, { useEffect } from 'react';
+import { observer } from 'mobx-react';
 import Loading from '@components/Loading';
-import { Card, CardContent, Grid, Typography } from '@material-ui/core';
+import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core';
+import { UsersService } from '@modules/User';
 
-export default function Apollo(): JSX.Element {
+export function Apollo(): JSX.Element {
   useEffect(() => {
-    getRates();
-  }, []);
-
-  const [loading, setLoading] = useState(true);
-  const [users, setUsers] = useState<User[]>([]);
-
-  const getRates = async () => {
-    const { loading, data } = await UserService.getUsers({
+    UsersService.getUsers({
       params: { page: 1, limit: 9 },
     });
-    setUsers(data.users.data as User[]);
-    setLoading(loading);
-  };
+  }, []);
+
+  function trigger() {
+    UsersService.testAction();
+  }
 
   return (
     <>
       <Title title="Apollo GQL" />
-      {loading && <Loading />}
+      {UsersService.loading && <Loading />}
+
+      <Button onClick={trigger} variant="contained" color="primary">
+        Trigger
+      </Button>
+      <div>{UsersService.test && 'Trigger'}</div>
 
       <Grid container spacing={1}>
-        {users.map((rate) => (
+        {UsersService.users.map((rate) => (
           <Grid key={rate.id} item xs={12} sm={6} md={4}>
             <Card>
               <CardContent>
@@ -50,3 +50,5 @@ export default function Apollo(): JSX.Element {
     </>
   );
 }
+
+export default observer(Apollo);

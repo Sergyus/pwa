@@ -10,6 +10,7 @@ import { makeStyles } from '@material-ui/styles';
 import { Theme } from '@material-ui/core/styles';
 import Skeleton from 'react-loading-skeleton';
 import MediaCard from '@components/UI/MediaCard';
+import { observer } from 'mobx-react';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -25,22 +26,20 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function Article(): JSX.Element {
+function Article(): JSX.Element {
   const classes = useStyles();
   const { id } = useParams<{ id: string }>();
   const [post, setPost] = useState<PostType>();
   const [open, setOpen] = useState(true);
-  const [posts, setPosts] = useState<PostType[]>([]);
+  const [posts] = useState<PostType[]>([]);
   const [skeletons] = useState(Array.from(Array(3).keys()));
 
   useEffect(() => {
     PostService.getPost(id).then((r) => {
       setPost(r);
     });
-    PostService.getPosts(+id, +id + 3).then((posts) => {
-      setPosts(posts);
-      setOpen(false);
-    });
+    PostService.getPosts(+id, +id + 3);
+    setOpen(false);
   }, [id]);
 
   if (post === undefined) {
@@ -86,3 +85,5 @@ export default function Article(): JSX.Element {
     </>
   );
 }
+
+export default observer(Article);
