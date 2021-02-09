@@ -4,6 +4,7 @@ import { observer } from 'mobx-react';
 import Loading from '@components/Loading';
 import { Button, Card, CardContent, Grid, Typography } from '@material-ui/core';
 import { UsersService } from '@modules/User';
+import { Helmet } from 'react-helmet';
 
 export function Apollo(): JSX.Element {
   useEffect(() => {
@@ -18,6 +19,10 @@ export function Apollo(): JSX.Element {
 
   return (
     <>
+      <Helmet>
+        <title>Apollo page</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <Title title="Apollo GQL" />
       {UsersService.loading && <Loading />}
 

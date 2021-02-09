@@ -38,6 +38,7 @@ module.exports = {
     __CLIENT__: true,
     __SERVER__: true,
     __DEV__: true,
+    __APOLLO_STATE__: true,
   },
   rules: {
     'prettier/prettier': 'error',

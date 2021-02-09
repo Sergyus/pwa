@@ -5,14 +5,18 @@ import CardContent from '@material-ui/core/CardContent';
 import Card from '@material-ui/core/Card';
 import { Avatar, Chip } from '@material-ui/core';
 import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
 
 export default function About(): JSX.Element {
   const { t } = useTranslation(['menu']);
 
   return (
     <>
+      <Helmet>
+        <title>About page</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <Title title={t('about')} />
-
       <Card>
         <CardContent>
           <Typography gutterBottom variant="h6" component="h2">

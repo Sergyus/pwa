@@ -11,6 +11,8 @@
 - https://stackoverflow.com/questions/56244030/prevent-client-side-re-render-when-using-ssr-and-apollo-client
 - https://github.com/dotansimha/graphql-code-generator/issues/3272
 - https://github.com/zyhou/react-apollo-ssr/blob/master/src/server/index.js
+- https://github.com/benawad/lireddit
+- https://www.youtube.com/watch?v=I6ypD7qv3Z8
 
 ### ROUTER
 
@@ -55,3 +57,7 @@
 ### SW Workbox
 
 - https://dsebastien.medium.com/building-a-service-worker-with-workbox-5-typescript-webpack-and-angular-5015ba76340b
+
+### TEST
+
+- https://github.com/react-boilerplate/react-boilerplate/blob/master/app/containers/HomePage/tests/Input.test.js

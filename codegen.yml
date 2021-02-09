@@ -31,3 +31,4 @@ generates:
       withHOC: false
       withHooks: false
       withComponent: false
+      skipTypename: false
