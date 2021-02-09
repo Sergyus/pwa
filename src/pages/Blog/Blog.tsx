@@ -8,12 +8,12 @@ import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 import { useTranslation } from 'react-i18next';
 import { observer } from 'mobx-react';
+import { PlatformService } from '@modules/Platform';
 
 function Blog(): JSX.Element {
-  // const [open, setOpen] = useState(true);
-  const [posts, setPosts] = useState<PostType[]>([]);
   const [skeletons] = useState(Array.from(Array(3).keys()));
   const { t } = useTranslation(['menu']);
+  const { isClient } = PlatformService;
 
   useEffect(() => {
     PostService.getPosts();
@@ -23,14 +23,13 @@ function Blog(): JSX.Element {
     const newPost: PostType = {
       id: Math.random().toString(36).substring(7),
       title: Math.random().toString(36).substring(7),
-      body: 'body',
+      body: 'Post body',
     };
-    setPosts((prev) => [...prev, newPost]);
+    PostService.add(newPost);
   }
 
   function remove(id: string) {
-    const updPosts = posts.filter((e) => e.id !== id);
-    setPosts(updPosts);
+    PostService.remove(id);
   }
 
   return (
@@ -42,11 +41,9 @@ function Blog(): JSX.Element {
         </Fab>
       </div>
 
-      {/*<FormDialog />*/}
-
       <Grid container spacing={1}>
         {!PostService.posts.length &&
-          __CLIENT__ &&
+          isClient &&
           skeletons.map((item) => (
             <Grid key={item} item xs={12} sm={6} md={4}>
               <NoSsr>

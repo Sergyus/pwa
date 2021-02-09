@@ -22,6 +22,7 @@
 ### WEBPACK
 
 - https://github.com/mikechabot/react-boilerplate/blob/master/webpack.config.js
+- https://github.com/leebenson/reactql/blob/master/src/webpack/static.ts
 
 ### MOBX
 

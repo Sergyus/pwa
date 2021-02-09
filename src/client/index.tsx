@@ -10,7 +10,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ApolloProvider } from '@apollo/client';
 import { I18nextProvider } from 'react-i18next';
 import { theme } from '../theme/theme';
-import { client } from '@libs/apollo';
+import { apolloClient } from '@libs/apollo';
 import '@assets/styles/index.scss';
 import '@libs/i18n';
 
@@ -20,7 +20,7 @@ import '@libs/i18n';
 const ReactApp = () => {
   useEffect(jssServerSide, []);
   return (
-    <ApolloProvider client={client}>
+    <ApolloProvider client={apolloClient}>
       <MuiThemeProvider theme={theme}>
         <I18nextProvider i18n={i18n}>
           <BrowserRouter>

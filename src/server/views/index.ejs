@@ -17,11 +17,11 @@
 
 <%- styles %>
 </head>
-<body <%- helmetBodyAttributes %>>
+<body <%- helmetBodyAttr %>>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"><%- html %></div>
 <script>
-  window.__INITIAL_STATE__ = <%- state %>
+  window.__INITIAL_STATE__ = <%- storeState %>
   window.__APOLLO_STATE__ = <%- apolloState %>
 </script>
 <%- scripts %>

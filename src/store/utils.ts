@@ -13,6 +13,6 @@ export function dehydrateState(
 /**
  * Rehydrate (on client)
  */
-export function rehydrateState(name: keyof RootStore): RootStore | null {
+export function rehydrateStore(name: keyof RootStore): RootStore | null {
   return __CLIENT__ ? (window.__INITIAL_STATE__?.[name] as RootStore) : null;
 }

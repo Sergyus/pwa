@@ -1,6 +1,6 @@
 import { CONFIG } from './consts';
 import fetch from 'isomorphic-fetch';
-import { client } from '@libs/apollo';
+import { apolloClient } from '@libs/apollo';
 import { ApolloQueryResult } from '@apollo/client';
 import {
   GetUsersDocument,
@@ -13,7 +13,7 @@ import {
  */
 class ApiService {
   private readonly url = CONFIG.url;
-  protected readonly client = client;
+  protected readonly client = apolloClient;
 
   public async request<T>(source: string): Promise<T> {
     const response = await fetch(this.url + source);

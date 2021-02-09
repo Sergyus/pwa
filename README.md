@@ -20,3 +20,8 @@
 - Eslint
 - Prettier
 - Webpack 5
+
+##### GIT
+
+- `git rebase --ignore-date HEAD~1`
+- `git rebase -i HEAD~1`

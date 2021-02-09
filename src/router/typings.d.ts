@@ -26,7 +26,7 @@ type PathType =
   | '/404'
   | '*';
 
-type FetchDataType = PostType[] | PostType | void;
+type FetchDataType = PostType[] | PostType | User[] | void;
 
 type FetchPropsType = {
   params: match['params'];

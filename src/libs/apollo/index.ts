@@ -9,17 +9,17 @@ import { CONFIG } from './consts';
 /**
  * Apollo Client
  */
-export const client = new ApolloClient({
+export const apolloClient = new ApolloClient({
   link: createHttpLink({
     uri: CONFIG.url,
     credentials: 'same-origin',
   }),
-  ssrMode: true,
-  cache: __CLIENT__
-    ? new InMemoryCache().restore(
+  cache: __SERVER__
+    ? new InMemoryCache()
+    : new InMemoryCache().restore(
         window.__APOLLO_STATE__ as NormalizedCacheObject,
-      )
-    : new InMemoryCache(),
+      ),
   connectToDevTools: true,
-  credentials: 'same-origin',
+  ssrForceFetchDelay: 100,
+  ssrMode: __SERVER__,
 });
