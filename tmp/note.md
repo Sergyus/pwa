@@ -10,6 +10,7 @@
 
 - https://stackoverflow.com/questions/56244030/prevent-client-side-re-render-when-using-ssr-and-apollo-client
 - https://github.com/dotansimha/graphql-code-generator/issues/3272
+- https://github.com/zyhou/react-apollo-ssr/blob/master/src/server/index.js
 
 ### ROUTER
 

@@ -1,3 +1,4 @@
+import { UsersService } from '@modules/User';
 import { RouterConfigType } from './typings';
 import PostService from '@modules/Post';
 import App from '../app';
@@ -12,7 +13,6 @@ import {
   Pwa,
   Ui,
 } from '@pages/index';
-import { UsersService } from '@modules/User';
 
 /**
  * Router Config

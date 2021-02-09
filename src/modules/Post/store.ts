@@ -1,5 +1,5 @@
 import { action, makeObservable, observable } from 'mobx';
-import { rehydrateStore } from '@store/utils';
+import { rehydrateState } from '@store/utils';
 
 /**
  * Post Store
@@ -9,7 +9,7 @@ export default class PostStore {
 
   constructor() {
     makeObservable(this);
-    Object.assign(this, rehydrateStore('PostStore'));
+    Object.assign(this, rehydrateState('PostStore'));
   }
 
   @action public setPosts = (posts: PostType[]): void => {

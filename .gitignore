@@ -30,3 +30,5 @@ src/api/generated/
 /public/service-worker.js
 /public/service-worker.js.gz
 /public/sw/
+/storybook-static/
+/src/stories/

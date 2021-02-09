@@ -1,7 +1,7 @@
 import { User } from '@api/generated/types';
 import { action, makeObservable, observable } from 'mobx';
 import { GetUsersQuery } from '@api/queries/methods/GetUser';
-import { rehydrateStore } from '@store/utils';
+import { rehydrateState } from '@store/utils';
 
 /**
  * Users Store
@@ -13,7 +13,7 @@ export default class UsersStore {
 
   constructor() {
     makeObservable(this);
-    Object.assign(this, rehydrateStore('UsersStore'));
+    Object.assign(this, rehydrateState('UsersStore'));
   }
 
   @action public setUsers({ users }: GetUsersQuery): void {

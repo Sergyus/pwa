@@ -1,48 +1,35 @@
 import path from 'path';
 import React from 'react';
+import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import { ServerStyleSheets, ThemeProvider } from '@material-ui/core/styles';
 import { loadInitialData } from '../utils/loadInitialData';
+import { getDataFromTree } from '@apollo/client/react/ssr';
 import { ChunkExtractor } from '@loadable/server';
-import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
-import { Request, Response } from 'express';
-import { theme } from '../../theme/theme';
-import CleanCSS from 'clean-css';
-import Router from '@router/Router';
-import { CONFIG } from '@modules/Api/consts';
 import { I18nextProvider } from 'react-i18next';
 import { rootStore } from '@store/registration';
-import { dehydrateStore } from '@store/utils';
+import { dehydrateState } from '@store/utils';
+import { Request, Response } from 'express';
+import { theme } from '../../theme/theme';
+import Router from '@router/Router';
 import { logger } from '../shared';
+import CleanCSS from 'clean-css';
 import i18n from 'i18next';
-import {
-  ApolloProvider,
-  ApolloClient,
-  createHttpLink,
-  InMemoryCache,
-} from '@apollo/client';
 
 /**
  * SSR Middleware
  */
 export async function ssr(req: Request, res: Response): Promise<void> {
   const statsFile = path.resolve(process.cwd(), 'public/loadable-stats.json');
-  const webExtractor = new ChunkExtractor({ statsFile });
+  const extractor = new ChunkExtractor({ statsFile });
   const sheets = new ServerStyleSheets();
-  // const state = serialize({
-  //   // device: getDeviceType(),
-  // });
-
   const client = new ApolloClient({
-    link: createHttpLink({
-      uri: CONFIG.url,
-      credentials: 'same-origin',
-      headers: {
-        cookie: req.header('Cookie'),
-      },
-    }),
-    cache: new InMemoryCache(),
     ssrMode: true,
+    uri: 'https://api.graphqlplaceholder.com',
+    // link: createHttpLink({
+    //   fetch,
+    // }),
+    cache: new InMemoryCache(),
   });
 
   try {
@@ -51,36 +38,34 @@ export async function ssr(req: Request, res: Response): Promise<void> {
     logger.error(e);
   }
 
-  const html = renderToString(
-    webExtractor.collectChunks(
-      sheets.collect(
-        <ApolloProvider client={client}>
-          <ThemeProvider theme={theme}>
-            <I18nextProvider i18n={i18n}>
-              <StaticRouter location={req.url}>
-                <Router />
-              </StaticRouter>
-            </I18nextProvider>
-          </ThemeProvider>
-        </ApolloProvider>,
-      ),
-    ),
+  const components = sheets.collect(
+    <ApolloProvider client={client}>
+      <I18nextProvider i18n={i18n}>
+        <ThemeProvider theme={theme}>
+          <StaticRouter location={req.url}>
+            <Router />
+          </StaticRouter>
+        </ThemeProvider>
+      </I18nextProvider>
+    </ApolloProvider>,
   );
 
-  const links = webExtractor.getLinkTags();
-  const scripts = webExtractor.getScriptTags();
-  const styleTags = webExtractor.getStyleTags();
+  const jsx = extractor.collectChunks(components);
+  const html = await getDataFromTree(jsx);
+
+  console.log(dehydrateState(client.extract()));
 
   const minCss = new CleanCSS({}).minify(sheets.toString());
   const styles = `<style id="jss-server-side">${minCss.styles}</style>`;
 
   res.render('index', {
     lang: 'ru',
-    links,
-    styleTags,
+    links: extractor.getLinkTags(),
+    styleTags: extractor.getStyleTags(),
     styles,
     html,
-    state: dehydrateStore(rootStore),
-    scripts,
+    state: dehydrateState(rootStore),
+    apolloState: dehydrateState(client.extract()),
+    scripts: extractor.getScriptTags(),
   });
 }
