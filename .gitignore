@@ -23,9 +23,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /public/loadable-stats.json
-src/api/generated/
 /public/webpack-assets.json
-/src/api/queries/methods/
 /public/assets/
 /public/service-worker.js
 /public/service-worker.js.gz

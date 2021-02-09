@@ -2,3 +2,4 @@ config-overrides.js
 webpack/*
 build
 api/
+coverage

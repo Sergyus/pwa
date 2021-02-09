@@ -20,3 +20,4 @@ src/favicon2.ico
 esdoc
 .gitlab-ci.yml
 .heml/*
+coverage
