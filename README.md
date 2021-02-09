@@ -23,5 +23,5 @@
 
 ##### GIT
 
-- `git rebase --ignore-date HEAD~1`
+- `git rebase --committer-date-is-author-date HEAD~1`
 - `git rebase -i HEAD~1`

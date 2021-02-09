@@ -6,6 +6,9 @@ module.exports = {
     'react-hooks',
     'eslint-plugin-import',
     'prettier',
+    'jest',
+    'jest-dom',
+    'testing-library',
   ],
   env: {
     browser: true,
@@ -14,6 +17,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
+    'plugin:jest/style',
+    'plugin:jest-dom/recommended',
+    'plugin:testing-library/react',
   ],
   parserOptions: {
     project: ['tsconfig.json'],

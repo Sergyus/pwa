@@ -50,7 +50,7 @@ export default function LangSwitcher(): JSX.Element {
         open={isMenuOpen}
         onClose={handleMenuClose}
       >
-        {LANGUAGES.map((lang) => (
+        {LANGUAGES.map((lang: string) => (
           <MenuItem value={lang} key={lang} onClick={changeLanguage}>
             {lang}
           </MenuItem>
