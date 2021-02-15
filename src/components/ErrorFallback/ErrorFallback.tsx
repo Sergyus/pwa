@@ -3,7 +3,7 @@ import { FallbackProps } from 'react-error-boundary';
 
 const ErrorFallback: FC<FallbackProps> = ({ error }: FallbackProps) => (
   <div className="container">
-    <h1>ErrorFallback</h1>
+    <h1>Error Fallback</h1>
     <p>Something went wrong.</p>
     <pre style={{ color: 'red' }}>{error?.message}</pre>
     <h3>

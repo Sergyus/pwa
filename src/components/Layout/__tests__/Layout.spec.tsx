@@ -1,22 +1,20 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
+import '@testing-library/jest-dom/extend-expect';
 import Layout from '../Layout';
 
-jest.mock('./../../Header', () => ({
-  __esModule: true,
-  default: function HeaderMock() {
-    return <div />;
-  },
-}));
-
 describe('<Layout />', () => {
-  it('should render with children props', () => {
-    const component = render(
-      <Layout>
-        <div id="test" />
-      </Layout>,
+  it('should render with children', () => {
+    const CONTENT = 'content';
+    const { asFragment } = render(
+      <MemoryRouter>
+        <Layout>
+          <div>{CONTENT}</div>
+        </Layout>
+      </MemoryRouter>,
     );
-    expect(component.container.querySelector('div#test')).not.toBeNull();
-    expect(component).toMatchSnapshot();
+    expect(screen.getByText(CONTENT)).toBeInTheDocument();
+    expect(asFragment()).toMatchSnapshot();
   });
 });

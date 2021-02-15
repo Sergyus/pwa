@@ -2,7 +2,7 @@ import React from 'react';
 import { renderRoutes, RouteConfig } from 'react-router-config';
 import { IRoute } from '@router/typings';
 
-type RouterAppProps = {
+export type RouterAppProps = {
   route: { routes: IRoute[] };
 };
 

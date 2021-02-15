@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pwa/> should renders 1`] = `
+<DocumentFragment>
+  <h1
+    class="title"
+  >
+    PWA
+  </h1>
+  <img
+    alt="pic"
+    src="IMAGE_MOCK"
+    style="width: 100%;"
+  />
+  <br />
+  <br />
+  <img
+    alt="pic"
+    src="IMAGE_MOCK"
+    style="width: 100%;"
+  />
+  <br />
+  <br />
+  <img
+    alt="pic"
+    src="IMAGE_MOCK"
+    style="width: 100%;"
+  />
+</DocumentFragment>
+`;

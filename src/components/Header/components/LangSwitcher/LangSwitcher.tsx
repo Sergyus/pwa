@@ -35,6 +35,7 @@ export default function LangSwitcher(): JSX.Element {
         aria-haspopup="true"
         onClick={handleMenuOpen}
         color="inherit"
+        data-testid="langBtn"
       >
         <div style={{ fontSize: '18px' }}>
           {i18n.language.toLocaleUpperCase()}
@@ -49,9 +50,15 @@ export default function LangSwitcher(): JSX.Element {
         transformOrigin={{ vertical: 'top', horizontal: 'left' }}
         open={isMenuOpen}
         onClose={handleMenuClose}
+        data-testid="langMenu"
       >
         {LANGUAGES.map((lang: string) => (
-          <MenuItem value={lang} key={lang} onClick={changeLanguage}>
+          <MenuItem
+            data-testid="langItem"
+            value={lang}
+            key={lang}
+            onClick={changeLanguage}
+          >
             {lang}
           </MenuItem>
         ))}

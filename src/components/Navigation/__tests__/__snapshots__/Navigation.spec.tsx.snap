@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navigation/> should renders 1`] = `
+<DocumentFragment>
+  <div
+    class="nav-header"
+    data-testid="menu"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <a
+          data-testid="menuItem"
+          href="/"
+          style="color: rgb(255, 255, 255); text-decoration: none;"
+        >
+          home
+        </a>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <a
+          data-testid="menuItem"
+          href="/blog"
+          style="color: rgb(255, 255, 255); text-decoration: none;"
+        >
+          blog
+        </a>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <a
+          data-testid="menuItem"
+          href="/about"
+          style="color: rgb(255, 255, 255); text-decoration: none;"
+        >
+          about
+        </a>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <a
+          data-testid="menuItem"
+          href="/ui"
+          style="color: rgb(255, 255, 255); text-decoration: none;"
+        >
+          Ui
+        </a>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <a
+          data-testid="menuItem"
+          href="/pwa"
+          style="color: rgb(255, 255, 255); text-decoration: none;"
+        >
+          Pwa
+        </a>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <a
+          data-testid="menuItem"
+          href="/apollo"
+          style="color: rgb(255, 255, 255); text-decoration: none;"
+        >
+          Apollo
+        </a>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;

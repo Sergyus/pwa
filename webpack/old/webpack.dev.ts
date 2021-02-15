@@ -13,7 +13,7 @@ const config: webpack.Configuration & { devServer: {} } = {
   mode: 'development',
   entry: {
     main: [
-      join(__dirname, '../src/index.tsx'),
+      join(__dirname, '../src/Loading.tsx'),
       join(__dirname, './utils/cleanConsoleOnHMR.ts'),
     ],
   },

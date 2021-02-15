@@ -1,12 +1,12 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import Title from '../Title';
+import { render, screen } from '@testing-library/react';
+import Title from '@components/Title';
 
 describe('<Title />', () => {
   it('should render with children props', () => {
-    const title = 'Text title';
-    const component = render(<Title title={title} />);
-    expect(component.container).toHaveTextContent(title);
-    expect(component).toMatchSnapshot();
+    const title = 'Test title';
+    const { asFragment } = render(<Title title={title} />);
+    expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
+    expect(asFragment()).toMatchSnapshot();
   });
 });

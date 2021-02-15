@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should renders 1`] = `
+<DocumentFragment>
+  <div
+    class="HomePage"
+  >
+    <h1
+      class="title"
+    >
+      home
+    </h1>
+    <h1>
+      translation:React
+    </h1>
+    <img
+      alt="pic"
+      src="IMAGE_MOCK"
+    />
+    <br />
+    <br />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        class="MuiCardContent-root"
+      >
+        <h2
+          class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom"
+        >
+          WELCOME
+        </h2>
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores, aut beatae blanditiis cupiditate dolore dolorum ea esse eum explicabo harum incidunt laudantium maxime nam necessitatibus nobis non obcaecati odio porro possimus quam, quisquam ratione repudiandae tempora tenetur ullam voluptatibus voluptatum. Ab accusamus aliquid asperiores beatae consequatur consequuntur culpa cumque delectus doloremque enim excepturi facilis, harum ipsam, maiores minima minus molestiae numquam odio optio placeat quaerat quo quod quos rem sed sequi tempora ut? Asperiores eius eum facere fugiat, illo incidunt, ipsa laborum laudantium magnam maxime minima necessitatibus nihil nisi quis suscipit temporibus voluptatum. Ab ad autem beatae, commodi consectetur corporis cumque cupiditate deserunt distinctio ea eligendi esse est ex facilis inventore ipsa laboriosam laudantium magnam maxime molestiae nesciunt nisi odit officiis praesentium quaerat quasi quis ratione reprehenderit rerum vel veniam voluptas voluptate voluptatem? Debitis dignissimos doloremque eos error et eveniet iure iusto maiores neque! Aspernatur eaque enim natus qui.
+        </p>
+        <br />
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores, aut beatae blanditiis cupiditate dolore dolorum ea esse eum explicabo harum incidunt laudantium maxime nam necessitatibus nobis non obcaecati odio porro possimus quam, quisquam ratione repudiandae tempora tenetur ullam voluptatibus voluptatum. Ab accusamus aliquid asperiores beatae consequatur consequuntur culpa cumque delectus doloremque enim excepturi facilis, harum ipsam, maiores minima minus molestiae numquam odio optio placeat quaerat quo quod quos rem sed sequi tempora ut? Asperiores eius eum facere fugiat, illo incidunt, ipsa laborum laudantium magnam maxime minima necessitatibus nihil nisi quis suscipit temporibus voluptatum. Ab ad autem beatae, commodi consectetur corporis cumque cupiditate deserunt distinctio ea eligendi esse est ex facilis inventore ipsa laboriosam laudantium magnam maxime molestiae nesciunt nisi odit officiis praesentium quaerat quasi quis ratione reprehenderit rerum vel veniam voluptas voluptate voluptatem? Debitis dignissimos doloremque eos error et eveniet iure iusto maiores neque! Aspernatur eaque enim natus qui.
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

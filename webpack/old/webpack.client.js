@@ -15,7 +15,7 @@ module.exports = (env, { mode, liveReload }) => {
     target: 'web',
     stats: 'minimal',
     entry: {
-      main: [path.join(__dirname, '../src/index.tsx')],
+      main: [path.join(__dirname, '../src/Loading.tsx')],
     },
     output: {
       path: path.join(__dirname, '../build'),

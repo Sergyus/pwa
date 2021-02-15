@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFound /> should renders 1`] = `
+<DocumentFragment>
+  <div
+    style="margin-top: 20px;"
+  >
+    <h1>
+      404 ERROR!
+    </h1>
+    <div
+      style="font-size: 24px; margin-bottom: 5px;"
+    >
+      Page not found :(
+    </div>
+    <p>
+      Maybe the page you are looking for has been removed, or you typed in the wrong URL
+    </p>
+  </div>
+</DocumentFragment>
+`;
